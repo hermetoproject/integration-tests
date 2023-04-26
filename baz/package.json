@@ -18,6 +18,6 @@
   "homepage": "https://github.com/cachito-testing/cachito-npm-workspaces#readme",
   "dependencies": {
     "dateformat": "^5.0.3",
-    "bitbucket-cachi2-npm-without-deps": "git@bitbucket.org:cachi-testing/cachi2-without-deps.git"
+    "bitbucket-cachi2-npm-without-deps": "https://bitbucket.org/cachi-testing/cachi2-without-deps.git"
   }
 }
