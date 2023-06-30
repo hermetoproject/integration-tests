@@ -1,7 +1,6 @@
 {
-  "name": "npm-cachi2-smoketest",
-  "version": "1.0.0",
-  "description": "",
+  "name": "npm_test",
+  "version": "1.1.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,6 +23,8 @@
     "spam-packages/spam",
     "eggs-packages/*"
   ],
+  "description": "",
+  "private": true,
   "dependencies": {
     "express": "^4.18.2",
     "@types/react-dom": "^18.0.1",
