@@ -1,6 +1,6 @@
 {
-  "name": "npm_test",
-  "version": "1.1.0",
+  "name": "npm-cachi2-yarn-registry-test",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,22 +16,12 @@
     "url": "https://github.com/cachito-testing/cachito-npm-workspaces/issues"
   },
   "homepage": "https://github.com/cachito-testing/cachito-npm-workspaces#readme",
-  "workspaces": [
-    "foo",
-    "./bar",
-    "baz",
-    "spam-packages/spam",
-    "eggs-packages/*"
-  ],
   "description": "",
   "private": true,
   "dependencies": {
-    "express": "^4.18.2",
     "@types/react-dom": "^18.0.1",
     "debug": "",
-    "sax": "0.1.1",
-    "is-positive": "github:kevva/is-positive",
-    "cachito-npm-without-deps": "https://github.com/cachito-testing/cachito-npm-without-deps/raw/tarball/cachito-npm-without-deps-1.0.0.tgz",
-    "bitbucket-cachi2-npm-without-deps-second": "git+https://bitbucket.org/cachi-testing/cachi2-without-deps-second.git"
+    "express": "^4.18.2",
+    "sax": "0.1.1"
   }
 }
