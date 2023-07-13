@@ -1,0 +1,23 @@
+{
+  "name": "npm-cachi2-second-pkg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cachito-testing/cachito-npm-workspaces.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cachito-testing/cachito-npm-workspaces/issues"
+  },
+  "homepage": "https://github.com/cachito-testing/cachito-npm-workspaces#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
