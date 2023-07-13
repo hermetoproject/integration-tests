@@ -18,5 +18,10 @@
   "homepage": "https://github.com/cachito-testing/cachito-npm-workspaces#readme",
   "devDependencies": {
     "express": "^4.18.2"
+  },
+  "dependencies": {
+    "@types/react-dom": "^18.0.1",
+    "cachito-npm-without-deps": "https://github.com/cachito-testing/cachito-npm-without-deps/raw/tarball/cachito-npm-without-deps-1.0.0.tgz",
+    "is-positive": "github:kevva/is-positive"
   }
 }
