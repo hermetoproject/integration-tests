@@ -31,6 +31,7 @@
     "sax": "0.1.1",
     "is-positive": "github:kevva/is-positive",
     "cachito-npm-without-deps": "https://github.com/cachito-testing/cachito-npm-without-deps/raw/tarball/cachito-npm-without-deps-1.0.0.tgz",
-    "bitbucket-cachi2-npm-without-deps-second": "git+https://bitbucket.org/cachi-testing/cachi2-without-deps-second.git"
+    "bitbucket-cachi2-npm-without-deps-second": "git+https://bitbucket.org/cachi-testing/cachi2-without-deps-second.git",
+    "fecha": "file:fecha-4.2.3.tgz"
   }
 }
