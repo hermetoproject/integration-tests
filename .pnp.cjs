@@ -30,6 +30,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@types/node", "npm:20.4.5"],\
             ["@types/yargs", "npm:17.0.24"],\
+            ["date-in-spanish", [\
+              "fecha",\
+              "npm:4.2.3"\
+            ]],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
             ["yargs", "npm:17.7.2"]\
           ],\
@@ -90,6 +94,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["berryscary", "workspace:."],\
             ["@types/node", "npm:20.4.5"],\
             ["@types/yargs", "npm:17.0.24"],\
+            ["date-in-spanish", [\
+              "fecha",\
+              "npm:4.2.3"\
+            ]],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
             ["yargs", "npm:17.7.2"]\
           ],\
@@ -141,6 +149,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/escalade-npm-3.1.1-e02da076aa-a3e2a99f07.zip/node_modules/escalade/",\
           "packageDependencies": [\
             ["escalade", "npm:3.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["fecha", [\
+        ["npm:4.2.3", {\
+          "packageLocation": "./.yarn/cache/fecha-npm-4.2.3-75248da3fd-f94e2fb3ac.zip/node_modules/fecha/",\
+          "packageDependencies": [\
+            ["fecha", "npm:4.2.3"]\
           ],\
           "linkType": "HARD"\
         }]\

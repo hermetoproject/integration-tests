@@ -50,6 +50,7 @@ __metadata:
   dependencies:
     "@types/node": ^20.4.5
     "@types/yargs": ^17
+    date-in-spanish: "npm:fecha@latest"
     typescript: ^5.1.6
     yargs: ^17.7.2
   bin:
@@ -81,6 +82,13 @@ __metadata:
   version: 1.1.4
   resolution: "color-name@npm:1.1.4"
   checksum: b0445859521eb4021cd0fb0cc1a75cecf67fceecae89b63f62b201cca8d345baf8b952c966862a9d9a2632987d4f6581f0ec8d957dfacece86f0a7919316f610
+  languageName: node
+  linkType: hard
+
+"date-in-spanish@npm:fecha@latest":
+  version: 4.2.3
+  resolution: "fecha@npm:4.2.3"
+  checksum: f94e2fb3acf5a7754165d04549460d3ae6c34830394d20c552197e3e000035d69732d74af04b9bed3283bf29fe2a9ebdcc0085e640b0be3cc3658b9726265e31
   languageName: node
   linkType: hard
 
