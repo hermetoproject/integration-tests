@@ -46,6 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-positive", "https://github.com/kevva/is-positive.git#commit=97edff6f525f192a3f83cea1944765f769ae2678"],\
             ["left-pad", "patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch::version=1.3.0&hash=629bda&locator=berryscary%40workspace%3A."],\
             ["old-man-from-scene-24", "workspace:packages/old-man-from-scene-24"],\
+            ["once-portal", "portal:external-packages/once::locator=berryscary%40workspace%3A."],\
             ["strip-ansi-tarball", "file:external-packages/strip-ansi-4.0.0.tgz::locator=berryscary%40workspace%3A."],\
             ["supports-hyperlinks-folder", "file:external-packages/supports-hyperlinks#external-packages/supports-hyperlinks::hash=cfa5f5&locator=berryscary%40workspace%3A."],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
@@ -136,6 +137,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-positive", "https://github.com/kevva/is-positive.git#commit=97edff6f525f192a3f83cea1944765f769ae2678"],\
             ["left-pad", "patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch::version=1.3.0&hash=629bda&locator=berryscary%40workspace%3A."],\
             ["old-man-from-scene-24", "workspace:packages/old-man-from-scene-24"],\
+            ["once-portal", "portal:external-packages/once::locator=berryscary%40workspace%3A."],\
             ["strip-ansi-tarball", "file:external-packages/strip-ansi-4.0.0.tgz::locator=berryscary%40workspace%3A."],\
             ["supports-hyperlinks-folder", "file:external-packages/supports-hyperlinks#external-packages/supports-hyperlinks::hash=cfa5f5&locator=berryscary%40workspace%3A."],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
@@ -283,6 +285,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT"\
         }]\
       ]],\
+      ["once-portal", [\
+        ["portal:external-packages/once::locator=berryscary%40workspace%3A.", {\
+          "packageLocation": "./external-packages/once/",\
+          "packageDependencies": [\
+            ["once-portal", "portal:external-packages/once::locator=berryscary%40workspace%3A."],\
+            ["wrappy", "npm:1.0.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
       ["require-directory", [\
         ["npm:2.1.1", {\
           "packageLocation": "./.yarn/cache/require-directory-npm-2.1.1-8608aee50b-fb47e70bf0.zip/node_modules/require-directory/",\
@@ -362,6 +374,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ansi-styles", "npm:4.3.0"],\
             ["string-width", "npm:4.2.3"],\
             ["strip-ansi", "npm:6.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["wrappy", [\
+        ["npm:1.0.2", {\
+          "packageLocation": "./.yarn/cache/wrappy-npm-1.0.2-916de4d4b3-159da4805f.zip/node_modules/wrappy/",\
+          "packageDependencies": [\
+            ["wrappy", "npm:1.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
