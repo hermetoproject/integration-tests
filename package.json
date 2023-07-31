@@ -12,8 +12,10 @@
   },
   "dependencies": {
     "c2-wo-deps": "https://bitbucket.org/cachi-testing/cachi2-without-deps.git",
+    "ccto-wo-deps": "git@github.com:cachito-testing/cachito-npm-without-deps.git",
     "date-in-spanish": "npm:fecha@latest",
     "holy-hand-grenade": "exec:./generate-holy-hand-grenade.js",
+    "is-positive": "github:kevva/is-positive",
     "old-man-from-scene-24": "workspace:^",
     "yargs": "^17.7.2"
   },

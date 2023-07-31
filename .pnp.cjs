@@ -36,11 +36,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:20.4.5"],\
             ["@types/yargs", "npm:17.0.24"],\
             ["c2-wo-deps", "https://bitbucket.org/cachi-testing/cachi2-without-deps.git#commit=9e164b97043a2d91bbeb992f6cc68a3d1015086a"],\
+            ["ccto-wo-deps", "git@github.com:cachito-testing/cachito-npm-without-deps.git#commit=2f0ce1d7b1f8b35572d919428b965285a69583f6"],\
             ["date-in-spanish", [\
               "fecha",\
               "npm:4.2.3"\
             ]],\
             ["holy-hand-grenade", "exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A."],\
+            ["is-positive", "https://github.com/kevva/is-positive.git#commit=97edff6f525f192a3f83cea1944765f769ae2678"],\
             ["old-man-from-scene-24", "workspace:packages/old-man-from-scene-24"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
             ["yargs", "npm:17.7.2"]\
@@ -103,11 +105,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:20.4.5"],\
             ["@types/yargs", "npm:17.0.24"],\
             ["c2-wo-deps", "https://bitbucket.org/cachi-testing/cachi2-without-deps.git#commit=9e164b97043a2d91bbeb992f6cc68a3d1015086a"],\
+            ["ccto-wo-deps", "git@github.com:cachito-testing/cachito-npm-without-deps.git#commit=2f0ce1d7b1f8b35572d919428b965285a69583f6"],\
             ["date-in-spanish", [\
               "fecha",\
               "npm:4.2.3"\
             ]],\
             ["holy-hand-grenade", "exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A."],\
+            ["is-positive", "https://github.com/kevva/is-positive.git#commit=97edff6f525f192a3f83cea1944765f769ae2678"],\
             ["old-man-from-scene-24", "workspace:packages/old-man-from-scene-24"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
             ["yargs", "npm:17.7.2"]\
@@ -120,6 +124,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/c2-wo-deps-https-1e4335033e-7af2e8eaba.zip/node_modules/c2-wo-deps/",\
           "packageDependencies": [\
             ["c2-wo-deps", "https://bitbucket.org/cachi-testing/cachi2-without-deps.git#commit=9e164b97043a2d91bbeb992f6cc68a3d1015086a"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["ccto-wo-deps", [\
+        ["git@github.com:cachito-testing/cachito-npm-without-deps.git#commit=2f0ce1d7b1f8b35572d919428b965285a69583f6", {\
+          "packageLocation": "./.yarn/cache/ccto-wo-deps-git@github.com-e0fce8c89c-3ed9ea417c.zip/node_modules/ccto-wo-deps/",\
+          "packageDependencies": [\
+            ["ccto-wo-deps", "git@github.com:cachito-testing/cachito-npm-without-deps.git#commit=2f0ce1d7b1f8b35572d919428b965285a69583f6"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -205,6 +218,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/is-fullwidth-code-point-npm-3.0.0-1ecf4ebee5-44a30c2945.zip/node_modules/is-fullwidth-code-point/",\
           "packageDependencies": [\
             ["is-fullwidth-code-point", "npm:3.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["is-positive", [\
+        ["https://github.com/kevva/is-positive.git#commit=97edff6f525f192a3f83cea1944765f769ae2678", {\
+          "packageLocation": "./.yarn/cache/is-positive-https-aa81db6e97-cc3d3247d5.zip/node_modules/is-positive/",\
+          "packageDependencies": [\
+            ["is-positive", "https://github.com/kevva/is-positive.git#commit=97edff6f525f192a3f83cea1944765f769ae2678"]\
           ],\
           "linkType": "HARD"\
         }]\

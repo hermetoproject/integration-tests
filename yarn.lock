@@ -51,8 +51,10 @@ __metadata:
     "@types/node": ^20.4.5
     "@types/yargs": ^17
     c2-wo-deps: "https://bitbucket.org/cachi-testing/cachi2-without-deps.git"
+    ccto-wo-deps: "git@github.com:cachito-testing/cachito-npm-without-deps.git"
     date-in-spanish: "npm:fecha@latest"
     holy-hand-grenade: "exec:./generate-holy-hand-grenade.js"
+    is-positive: "github:kevva/is-positive"
     old-man-from-scene-24: "workspace:^"
     typescript: ^5.1.6
     yargs: ^17.7.2
@@ -65,6 +67,13 @@ __metadata:
   version: 1.0.0
   resolution: "c2-wo-deps@https://bitbucket.org/cachi-testing/cachi2-without-deps.git#commit=9e164b97043a2d91bbeb992f6cc68a3d1015086a"
   checksum: 7af2e8eaba7023b13131489b6b8e6ebb1e2f07fcec6e2ac4a521be4bac29edc8f6e5e90cb3dd5e68fe7903a0ee2814deb5a1a7b975ff6c575b812daeac4996ec
+  languageName: node
+  linkType: hard
+
+"ccto-wo-deps@git@github.com:cachito-testing/cachito-npm-without-deps.git":
+  version: 1.0.0
+  resolution: "ccto-wo-deps@git@github.com:cachito-testing/cachito-npm-without-deps.git#commit=2f0ce1d7b1f8b35572d919428b965285a69583f6"
+  checksum: 3ed9ea417c75a1999925159e67cf04bf2d522967692a55321559ef2b353fa690167b7bc40e989e4ee35e36d095f007f2d0c53faeb55f14d07ec3ece34faba206
   languageName: node
   linkType: hard
 
@@ -134,6 +143,13 @@ __metadata:
   version: 3.0.0
   resolution: "is-fullwidth-code-point@npm:3.0.0"
   checksum: 44a30c29457c7fb8f00297bce733f0a64cd22eca270f83e58c105e0d015e45c019491a4ab2faef91ab51d4738c670daff901c799f6a700e27f7314029e99e348
+  languageName: node
+  linkType: hard
+
+"is-positive@github:kevva/is-positive":
+  version: 3.1.0
+  resolution: "is-positive@https://github.com/kevva/is-positive.git#commit=97edff6f525f192a3f83cea1944765f769ae2678"
+  checksum: cc3d3247d509d5c272122be98eac520d1622043a330efaf0ed18645497cdce57996feff8a4a98cba72c6ec20d967ab1e1301e9b97d28f099ce81307008447d70
   languageName: node
   linkType: hard
 
