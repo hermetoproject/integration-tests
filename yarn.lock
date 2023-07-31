@@ -69,6 +69,7 @@ __metadata:
     date-in-spanish: "npm:fecha@latest"
     holy-hand-grenade: "exec:./generate-holy-hand-grenade.js"
     is-positive: "github:kevva/is-positive"
+    left-pad: "patch:left-pad@1.3.0#./my-patches/left-pad.patch"
     old-man-from-scene-24: "workspace:^"
     strip-ansi-tarball: "file:external-packages/strip-ansi-4.0.0.tgz"
     supports-hyperlinks-folder: "file:external-packages/supports-hyperlinks"
@@ -173,6 +174,20 @@ __metadata:
   version: 3.1.0
   resolution: "is-positive@https://github.com/kevva/is-positive.git#commit=97edff6f525f192a3f83cea1944765f769ae2678"
   checksum: cc3d3247d509d5c272122be98eac520d1622043a330efaf0ed18645497cdce57996feff8a4a98cba72c6ec20d967ab1e1301e9b97d28f099ce81307008447d70
+  languageName: node
+  linkType: hard
+
+"left-pad@npm:1.3.0":
+  version: 1.3.0
+  resolution: "left-pad@npm:1.3.0"
+  checksum: 13fa96e17b70a54836490de22d4bab706e2ed508338bbabecfac72ecce445a74139c5b009a8112252cab8fc4ab7ac4ebd870e5b35bd236b443b12be96f8745ac
+  languageName: node
+  linkType: hard
+
+"left-pad@patch:left-pad@1.3.0#./my-patches/left-pad.patch::locator=berryscary%40workspace%3A.":
+  version: 1.3.0
+  resolution: "left-pad@patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch::version=1.3.0&hash=629bda&locator=berryscary%40workspace%3A."
+  checksum: 1fb795aff3df86466fa2063ce1db288da15de0db63c624a3d921abab6b3d079093b035c093382fc009afc07da33d65c97b6728ded0efedac999f6f6e1ddf13c3
   languageName: node
   linkType: hard
 

@@ -44,6 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ]],\
             ["holy-hand-grenade", "exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A."],\
             ["is-positive", "https://github.com/kevva/is-positive.git#commit=97edff6f525f192a3f83cea1944765f769ae2678"],\
+            ["left-pad", "patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch::version=1.3.0&hash=629bda&locator=berryscary%40workspace%3A."],\
             ["old-man-from-scene-24", "workspace:packages/old-man-from-scene-24"],\
             ["strip-ansi-tarball", "file:external-packages/strip-ansi-4.0.0.tgz::locator=berryscary%40workspace%3A."],\
             ["supports-hyperlinks-folder", "file:external-packages/supports-hyperlinks#external-packages/supports-hyperlinks::hash=cfa5f5&locator=berryscary%40workspace%3A."],\
@@ -133,6 +134,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ]],\
             ["holy-hand-grenade", "exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A."],\
             ["is-positive", "https://github.com/kevva/is-positive.git#commit=97edff6f525f192a3f83cea1944765f769ae2678"],\
+            ["left-pad", "patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch::version=1.3.0&hash=629bda&locator=berryscary%40workspace%3A."],\
             ["old-man-from-scene-24", "workspace:packages/old-man-from-scene-24"],\
             ["strip-ansi-tarball", "file:external-packages/strip-ansi-4.0.0.tgz::locator=berryscary%40workspace%3A."],\
             ["supports-hyperlinks-folder", "file:external-packages/supports-hyperlinks#external-packages/supports-hyperlinks::hash=cfa5f5&locator=berryscary%40workspace%3A."],\
@@ -259,6 +261,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/is-positive-https-aa81db6e97-cc3d3247d5.zip/node_modules/is-positive/",\
           "packageDependencies": [\
             ["is-positive", "https://github.com/kevva/is-positive.git#commit=97edff6f525f192a3f83cea1944765f769ae2678"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["left-pad", [\
+        ["patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch::version=1.3.0&hash=629bda&locator=berryscary%40workspace%3A.", {\
+          "packageLocation": "./.yarn/cache/left-pad-patch-391c091200-1fb795aff3.zip/node_modules/left-pad/",\
+          "packageDependencies": [\
+            ["left-pad", "patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch::version=1.3.0&hash=629bda&locator=berryscary%40workspace%3A."]\
           ],\
           "linkType": "HARD"\
         }]\
