@@ -28,9 +28,59 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"]\
+            ["@types/node", "npm:20.4.5"],\
+            ["@types/yargs", "npm:17.0.24"],\
+            ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
+            ["yargs", "npm:17.7.2"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@types/node", [\
+        ["npm:20.4.5", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-20.4.5-7555fad0d4-36a0304a8d.zip/node_modules/@types/node/",\
+          "packageDependencies": [\
+            ["@types/node", "npm:20.4.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/yargs", [\
+        ["npm:17.0.24", {\
+          "packageLocation": "./.yarn/cache/@types-yargs-npm-17.0.24-b034cf1d8b-5f3ac4dc4f.zip/node_modules/@types/yargs/",\
+          "packageDependencies": [\
+            ["@types/yargs", "npm:17.0.24"],\
+            ["@types/yargs-parser", "npm:21.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/yargs-parser", [\
+        ["npm:21.0.0", {\
+          "packageLocation": "./.yarn/cache/@types-yargs-parser-npm-21.0.0-c8a3b32c52-b2f4c8d12a.zip/node_modules/@types/yargs-parser/",\
+          "packageDependencies": [\
+            ["@types/yargs-parser", "npm:21.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["ansi-regex", [\
+        ["npm:5.0.1", {\
+          "packageLocation": "./.yarn/cache/ansi-regex-npm-5.0.1-c963a48615-2aa4bb54ca.zip/node_modules/ansi-regex/",\
+          "packageDependencies": [\
+            ["ansi-regex", "npm:5.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["ansi-styles", [\
+        ["npm:4.3.0", {\
+          "packageLocation": "./.yarn/cache/ansi-styles-npm-4.3.0-245c7d42c7-513b44c3b2.zip/node_modules/ansi-styles/",\
+          "packageDependencies": [\
+            ["ansi-styles", "npm:4.3.0"],\
+            ["color-convert", "npm:2.0.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["berryscary", [\
@@ -38,9 +88,110 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["berryscary", "workspace:."],\
-            ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"]\
+            ["@types/node", "npm:20.4.5"],\
+            ["@types/yargs", "npm:17.0.24"],\
+            ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
+            ["yargs", "npm:17.7.2"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["cliui", [\
+        ["npm:8.0.1", {\
+          "packageLocation": "./.yarn/cache/cliui-npm-8.0.1-3b029092cf-79648b3b00.zip/node_modules/cliui/",\
+          "packageDependencies": [\
+            ["cliui", "npm:8.0.1"],\
+            ["string-width", "npm:4.2.3"],\
+            ["strip-ansi", "npm:6.0.1"],\
+            ["wrap-ansi", "npm:7.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["color-convert", [\
+        ["npm:2.0.1", {\
+          "packageLocation": "./.yarn/cache/color-convert-npm-2.0.1-79730e935b-79e6bdb9fd.zip/node_modules/color-convert/",\
+          "packageDependencies": [\
+            ["color-convert", "npm:2.0.1"],\
+            ["color-name", "npm:1.1.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["color-name", [\
+        ["npm:1.1.4", {\
+          "packageLocation": "./.yarn/cache/color-name-npm-1.1.4-025792b0ea-b044585952.zip/node_modules/color-name/",\
+          "packageDependencies": [\
+            ["color-name", "npm:1.1.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["emoji-regex", [\
+        ["npm:8.0.0", {\
+          "packageLocation": "./.yarn/cache/emoji-regex-npm-8.0.0-213764015c-d4c5c39d5a.zip/node_modules/emoji-regex/",\
+          "packageDependencies": [\
+            ["emoji-regex", "npm:8.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["escalade", [\
+        ["npm:3.1.1", {\
+          "packageLocation": "./.yarn/cache/escalade-npm-3.1.1-e02da076aa-a3e2a99f07.zip/node_modules/escalade/",\
+          "packageDependencies": [\
+            ["escalade", "npm:3.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["get-caller-file", [\
+        ["npm:2.0.5", {\
+          "packageLocation": "./.yarn/cache/get-caller-file-npm-2.0.5-80e8a86305-b9769a836d.zip/node_modules/get-caller-file/",\
+          "packageDependencies": [\
+            ["get-caller-file", "npm:2.0.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["is-fullwidth-code-point", [\
+        ["npm:3.0.0", {\
+          "packageLocation": "./.yarn/cache/is-fullwidth-code-point-npm-3.0.0-1ecf4ebee5-44a30c2945.zip/node_modules/is-fullwidth-code-point/",\
+          "packageDependencies": [\
+            ["is-fullwidth-code-point", "npm:3.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["require-directory", [\
+        ["npm:2.1.1", {\
+          "packageLocation": "./.yarn/cache/require-directory-npm-2.1.1-8608aee50b-fb47e70bf0.zip/node_modules/require-directory/",\
+          "packageDependencies": [\
+            ["require-directory", "npm:2.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["string-width", [\
+        ["npm:4.2.3", {\
+          "packageLocation": "./.yarn/cache/string-width-npm-4.2.3-2c27177bae-e52c10dc3f.zip/node_modules/string-width/",\
+          "packageDependencies": [\
+            ["string-width", "npm:4.2.3"],\
+            ["emoji-regex", "npm:8.0.0"],\
+            ["is-fullwidth-code-point", "npm:3.0.0"],\
+            ["strip-ansi", "npm:6.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["strip-ansi", [\
+        ["npm:6.0.1", {\
+          "packageLocation": "./.yarn/cache/strip-ansi-npm-6.0.1-caddc7cb40-f3cd25890a.zip/node_modules/strip-ansi/",\
+          "packageDependencies": [\
+            ["strip-ansi", "npm:6.0.1"],\
+            ["ansi-regex", "npm:5.0.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["typescript", [\
@@ -48,6 +199,52 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/typescript-patch-bd21d74a9d-f53bfe97f7.zip/node_modules/typescript/",\
           "packageDependencies": [\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["wrap-ansi", [\
+        ["npm:7.0.0", {\
+          "packageLocation": "./.yarn/cache/wrap-ansi-npm-7.0.0-ad6e1a0554-a790b846fd.zip/node_modules/wrap-ansi/",\
+          "packageDependencies": [\
+            ["wrap-ansi", "npm:7.0.0"],\
+            ["ansi-styles", "npm:4.3.0"],\
+            ["string-width", "npm:4.2.3"],\
+            ["strip-ansi", "npm:6.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["y18n", [\
+        ["npm:5.0.8", {\
+          "packageLocation": "./.yarn/cache/y18n-npm-5.0.8-5f3a0a7e62-54f0fb9562.zip/node_modules/y18n/",\
+          "packageDependencies": [\
+            ["y18n", "npm:5.0.8"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["yargs", [\
+        ["npm:17.7.2", {\
+          "packageLocation": "./.yarn/cache/yargs-npm-17.7.2-80b62638e1-73b572e863.zip/node_modules/yargs/",\
+          "packageDependencies": [\
+            ["yargs", "npm:17.7.2"],\
+            ["cliui", "npm:8.0.1"],\
+            ["escalade", "npm:3.1.1"],\
+            ["get-caller-file", "npm:2.0.5"],\
+            ["require-directory", "npm:2.1.1"],\
+            ["string-width", "npm:4.2.3"],\
+            ["y18n", "npm:5.0.8"],\
+            ["yargs-parser", "npm:21.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["yargs-parser", [\
+        ["npm:21.1.1", {\
+          "packageLocation": "./.yarn/cache/yargs-parser-npm-21.1.1-8fdc003314-ed2d96a616.zip/node_modules/yargs-parser/",\
+          "packageDependencies": [\
+            ["yargs-parser", "npm:21.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\

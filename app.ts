@@ -1,2 +1,6 @@
-let message: string = 'Hello, World!';
-console.log(message);
+const yargs = require('yargs/yargs')
+const { hideBin } = require('yargs/helpers')
+
+const argv = yargs(hideBin(process.argv)).argv
+
+console.log(`Hello, ${argv.name ?? 'World'}!`)
