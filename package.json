@@ -1,4 +1,11 @@
 {
   "name": "berryscary",
-  "packageManager": "yarn@3.6.1"
+  "packageManager": "yarn@3.6.1",
+  "scripts": {
+    "build": "tsc",
+    "app": "node dist/app.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
 }
