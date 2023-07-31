@@ -52,6 +52,8 @@ __metadata:
     "@types/yargs": ^17
     typescript: ^5.1.6
     yargs: ^17.7.2
+  bin:
+    berryscary: dist/app.js
   languageName: unknown
   linkType: soft
 
