@@ -44,6 +44,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["holy-hand-grenade", "exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A."],\
             ["is-positive", "https://github.com/kevva/is-positive.git#commit=97edff6f525f192a3f83cea1944765f769ae2678"],\
             ["old-man-from-scene-24", "workspace:packages/old-man-from-scene-24"],\
+            ["strip-ansi-tarball", "file:external-packages/strip-ansi-4.0.0.tgz::locator=berryscary%40workspace%3A."],\
+            ["supports-hyperlinks-folder", "file:external-packages/supports-hyperlinks#external-packages/supports-hyperlinks::hash=cfa5f5&locator=berryscary%40workspace%3A."],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
             ["yargs", "npm:17.7.2"]\
           ],\
@@ -79,6 +81,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["ansi-regex", [\
+        ["npm:3.0.1", {\
+          "packageLocation": "./.yarn/cache/ansi-regex-npm-3.0.1-01f44078a3-09daf180c5.zip/node_modules/ansi-regex/",\
+          "packageDependencies": [\
+            ["ansi-regex", "npm:3.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:5.0.1", {\
           "packageLocation": "./.yarn/cache/ansi-regex-npm-5.0.1-c963a48615-2aa4bb54ca.zip/node_modules/ansi-regex/",\
           "packageDependencies": [\
@@ -113,6 +122,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["holy-hand-grenade", "exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A."],\
             ["is-positive", "https://github.com/kevva/is-positive.git#commit=97edff6f525f192a3f83cea1944765f769ae2678"],\
             ["old-man-from-scene-24", "workspace:packages/old-man-from-scene-24"],\
+            ["strip-ansi-tarball", "file:external-packages/strip-ansi-4.0.0.tgz::locator=berryscary%40workspace%3A."],\
+            ["supports-hyperlinks-folder", "file:external-packages/supports-hyperlinks#external-packages/supports-hyperlinks::hash=cfa5f5&locator=berryscary%40workspace%3A."],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
             ["yargs", "npm:17.7.2"]\
           ],\
@@ -204,6 +215,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["has-flag", [\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/has-flag-npm-4.0.0-32af9f0536-261a135703.zip/node_modules/has-flag/",\
+          "packageDependencies": [\
+            ["has-flag", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["holy-hand-grenade", [\
         ["exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A.", {\
           "packageLocation": "./.yarn/cache/holy-hand-grenade-exec-e88e9eb6dd-6053ad5dc7.zip/node_modules/holy-hand-grenade/",\
@@ -267,6 +287,37 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["strip-ansi", "npm:6.0.1"],\
             ["ansi-regex", "npm:5.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["strip-ansi-tarball", [\
+        ["file:external-packages/strip-ansi-4.0.0.tgz::locator=berryscary%40workspace%3A.", {\
+          "packageLocation": "./.yarn/cache/strip-ansi-tarball-file-3176cc06fb-d67629c877.zip/node_modules/strip-ansi-tarball/",\
+          "packageDependencies": [\
+            ["strip-ansi-tarball", "file:external-packages/strip-ansi-4.0.0.tgz::locator=berryscary%40workspace%3A."],\
+            ["ansi-regex", "npm:3.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["supports-color", [\
+        ["npm:7.2.0", {\
+          "packageLocation": "./.yarn/cache/supports-color-npm-7.2.0-606bfcf7da-3dda818de0.zip/node_modules/supports-color/",\
+          "packageDependencies": [\
+            ["supports-color", "npm:7.2.0"],\
+            ["has-flag", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["supports-hyperlinks-folder", [\
+        ["file:external-packages/supports-hyperlinks#external-packages/supports-hyperlinks::hash=cfa5f5&locator=berryscary%40workspace%3A.", {\
+          "packageLocation": "./.yarn/cache/supports-hyperlinks-folder-file-3fc12a9114-dfb0b4a1f2.zip/node_modules/supports-hyperlinks-folder/",\
+          "packageDependencies": [\
+            ["supports-hyperlinks-folder", "file:external-packages/supports-hyperlinks#external-packages/supports-hyperlinks::hash=cfa5f5&locator=berryscary%40workspace%3A."],\
+            ["has-flag", "npm:4.0.0"],\
+            ["supports-color", "npm:7.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
