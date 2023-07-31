@@ -11,6 +11,7 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
+    "ansi-regex-link": "link:external-packages/ansi-regex",
     "c2-wo-deps": "https://bitbucket.org/cachi-testing/cachi2-without-deps.git",
     "ccto-wo-deps": "git@github.com:cachito-testing/cachito-npm-without-deps.git",
     "date-in-spanish": "npm:fecha@latest",

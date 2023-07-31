@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@types/node", "npm:20.4.5"],\
             ["@types/yargs", "npm:17.0.24"],\
+            ["ansi-regex-link", "link:external-packages/ansi-regex::locator=berryscary%40workspace%3A."],\
             ["c2-wo-deps", "https://bitbucket.org/cachi-testing/cachi2-without-deps.git#commit=9e164b97043a2d91bbeb992f6cc68a3d1015086a"],\
             ["ccto-wo-deps", "git@github.com:cachito-testing/cachito-npm-without-deps.git#commit=2f0ce1d7b1f8b35572d919428b965285a69583f6"],\
             ["date-in-spanish", [\
@@ -96,6 +97,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["ansi-regex-link", [\
+        ["link:external-packages/ansi-regex::locator=berryscary%40workspace%3A.", {\
+          "packageLocation": "./external-packages/ansi-regex/",\
+          "packageDependencies": [\
+            ["ansi-regex-link", "link:external-packages/ansi-regex::locator=berryscary%40workspace%3A."]\
+          ],\
+          "linkType": "SOFT",\
+          "discardFromLookup": true\
+        }]\
+      ]],\
       ["ansi-styles", [\
         ["npm:4.3.0", {\
           "packageLocation": "./.yarn/cache/ansi-styles-npm-4.3.0-245c7d42c7-513b44c3b2.zip/node_modules/ansi-styles/",\
@@ -113,6 +124,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["berryscary", "workspace:."],\
             ["@types/node", "npm:20.4.5"],\
             ["@types/yargs", "npm:17.0.24"],\
+            ["ansi-regex-link", "link:external-packages/ansi-regex::locator=berryscary%40workspace%3A."],\
             ["c2-wo-deps", "https://bitbucket.org/cachi-testing/cachi2-without-deps.git#commit=9e164b97043a2d91bbeb992f6cc68a3d1015086a"],\
             ["ccto-wo-deps", "git@github.com:cachito-testing/cachito-npm-without-deps.git#commit=2f0ce1d7b1f8b35572d919428b965285a69583f6"],\
             ["date-in-spanish", [\
