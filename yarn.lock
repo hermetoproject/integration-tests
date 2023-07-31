@@ -50,6 +50,7 @@ __metadata:
   dependencies:
     "@types/node": ^20.4.5
     "@types/yargs": ^17
+    c2-wo-deps: "https://bitbucket.org/cachi-testing/cachi2-without-deps.git"
     date-in-spanish: "npm:fecha@latest"
     holy-hand-grenade: "exec:./generate-holy-hand-grenade.js"
     old-man-from-scene-24: "workspace:^"
@@ -59,6 +60,13 @@ __metadata:
     berryscary: dist/app.js
   languageName: unknown
   linkType: soft
+
+"c2-wo-deps@https://bitbucket.org/cachi-testing/cachi2-without-deps.git":
+  version: 1.0.0
+  resolution: "c2-wo-deps@https://bitbucket.org/cachi-testing/cachi2-without-deps.git#commit=9e164b97043a2d91bbeb992f6cc68a3d1015086a"
+  checksum: 7af2e8eaba7023b13131489b6b8e6ebb1e2f07fcec6e2ac4a521be4bac29edc8f6e5e90cb3dd5e68fe7903a0ee2814deb5a1a7b975ff6c575b812daeac4996ec
+  languageName: node
+  linkType: hard
 
 "cliui@npm:^8.0.1":
   version: 8.0.1

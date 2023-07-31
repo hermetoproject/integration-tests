@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@types/node", "npm:20.4.5"],\
             ["@types/yargs", "npm:17.0.24"],\
+            ["c2-wo-deps", "https://bitbucket.org/cachi-testing/cachi2-without-deps.git#commit=9e164b97043a2d91bbeb992f6cc68a3d1015086a"],\
             ["date-in-spanish", [\
               "fecha",\
               "npm:4.2.3"\
@@ -101,6 +102,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["berryscary", "workspace:."],\
             ["@types/node", "npm:20.4.5"],\
             ["@types/yargs", "npm:17.0.24"],\
+            ["c2-wo-deps", "https://bitbucket.org/cachi-testing/cachi2-without-deps.git#commit=9e164b97043a2d91bbeb992f6cc68a3d1015086a"],\
             ["date-in-spanish", [\
               "fecha",\
               "npm:4.2.3"\
@@ -111,6 +113,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["yargs", "npm:17.7.2"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["c2-wo-deps", [\
+        ["https://bitbucket.org/cachi-testing/cachi2-without-deps.git#commit=9e164b97043a2d91bbeb992f6cc68a3d1015086a", {\
+          "packageLocation": "./.yarn/cache/c2-wo-deps-https-1e4335033e-7af2e8eaba.zip/node_modules/c2-wo-deps/",\
+          "packageDependencies": [\
+            ["c2-wo-deps", "https://bitbucket.org/cachi-testing/cachi2-without-deps.git#commit=9e164b97043a2d91bbeb992f6cc68a3d1015086a"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["cliui", [\
