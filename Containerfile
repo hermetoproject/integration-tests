@@ -1,5 +1,8 @@
 FROM docker.io/node:20
 
+# Make node-gyp find the pre-installed node headers
+ENV npm_config_nodedir=/usr/local
+
 COPY . /src
 WORKDIR /src
 

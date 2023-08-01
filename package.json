@@ -24,6 +24,7 @@
     "once-portal": "portal:external-packages/once",
     "strip-ansi-tarball": "file:external-packages/strip-ansi-4.0.0.tgz",
     "supports-hyperlinks-folder": "file:external-packages/supports-hyperlinks",
+    "tree-sitter-json": "^0.20.0",
     "yargs": "^17.7.2"
   },
   "resolutions": {
