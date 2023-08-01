@@ -44,13 +44,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["c2-wo-deps", "https://bitbucket.org/cachi-testing/cachi2-without-deps.git#commit=9e164b97043a2d91bbeb992f6cc68a3d1015086a"],\
             ["c2-wo-deps-2", "https://bitbucket.org/cachi-testing/cachi2-without-deps-second/get/09992d418fc44a2895b7a9ff27c4e32d6f74a982.tar.gz"],\
             ["ccto-wo-deps", "git@github.com:cachito-testing/cachito-npm-without-deps.git#commit=2f0ce1d7b1f8b35572d919428b965285a69583f6"],\
+            ["chalk", "npm:5.3.0"],\
             ["date-in-spanish", [\
               "fecha",\
               "npm:4.2.3"\
             ]],\
+            ["emoji-regex", "https://github.com/mathiasbynens/emoji-regex.git#commit=6acf03a84f4ceb0728643057fd03ea8f0f970555"],\
             ["holy-hand-grenade", "exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A."],\
             ["is-positive", "https://github.com/kevva/is-positive.git#commit=97edff6f525f192a3f83cea1944765f769ae2678"],\
             ["left-pad", "patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch::version=1.3.0&hash=629bda&locator=berryscary%40workspace%3A."],\
+            ["minimist", "https://github.com/minimistjs/minimist.git#commit=fdbb909cf916b3bac9f76f6ee72c64e05b73c2d9"],\
             ["old-man-from-scene-24", "workspace:packages/old-man-from-scene-24"],\
             ["once-portal", "portal:external-packages/once::locator=berryscary%40workspace%3A."],\
             ["strip-ansi-tarball", "file:external-packages/strip-ansi-4.0.0.tgz::locator=berryscary%40workspace%3A."],\
@@ -146,13 +149,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["c2-wo-deps", "https://bitbucket.org/cachi-testing/cachi2-without-deps.git#commit=9e164b97043a2d91bbeb992f6cc68a3d1015086a"],\
             ["c2-wo-deps-2", "https://bitbucket.org/cachi-testing/cachi2-without-deps-second/get/09992d418fc44a2895b7a9ff27c4e32d6f74a982.tar.gz"],\
             ["ccto-wo-deps", "git@github.com:cachito-testing/cachito-npm-without-deps.git#commit=2f0ce1d7b1f8b35572d919428b965285a69583f6"],\
+            ["chalk", "npm:5.3.0"],\
             ["date-in-spanish", [\
               "fecha",\
               "npm:4.2.3"\
             ]],\
+            ["emoji-regex", "https://github.com/mathiasbynens/emoji-regex.git#commit=6acf03a84f4ceb0728643057fd03ea8f0f970555"],\
             ["holy-hand-grenade", "exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A."],\
             ["is-positive", "https://github.com/kevva/is-positive.git#commit=97edff6f525f192a3f83cea1944765f769ae2678"],\
             ["left-pad", "patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch::version=1.3.0&hash=629bda&locator=berryscary%40workspace%3A."],\
+            ["minimist", "https://github.com/minimistjs/minimist.git#commit=fdbb909cf916b3bac9f76f6ee72c64e05b73c2d9"],\
             ["old-man-from-scene-24", "workspace:packages/old-man-from-scene-24"],\
             ["once-portal", "portal:external-packages/once::locator=berryscary%40workspace%3A."],\
             ["strip-ansi-tarball", "file:external-packages/strip-ansi-4.0.0.tgz::locator=berryscary%40workspace%3A."],\
@@ -190,6 +196,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["chalk", [\
+        ["npm:5.3.0", {\
+          "packageLocation": "./.yarn/cache/chalk-npm-5.3.0-d181999efb-623922e077.zip/node_modules/chalk/",\
+          "packageDependencies": [\
+            ["chalk", "npm:5.3.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["cliui", [\
         ["npm:8.0.1", {\
           "packageLocation": "./.yarn/cache/cliui-npm-8.0.1-3b029092cf-79648b3b00.zip/node_modules/cliui/",\
@@ -222,6 +237,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["emoji-regex", [\
+        ["https://github.com/mathiasbynens/emoji-regex.git#commit=6acf03a84f4ceb0728643057fd03ea8f0f970555", {\
+          "packageLocation": "./.yarn/cache/emoji-regex-https-0afcdf80e3-7dabb6b0b9.zip/node_modules/emoji-regex/",\
+          "packageDependencies": [\
+            ["emoji-regex", "https://github.com/mathiasbynens/emoji-regex.git#commit=6acf03a84f4ceb0728643057fd03ea8f0f970555"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:8.0.0", {\
           "packageLocation": "./.yarn/cache/emoji-regex-npm-8.0.0-213764015c-d4c5c39d5a.zip/node_modules/emoji-regex/",\
           "packageDependencies": [\
@@ -305,6 +327,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/left-pad-patch-391c091200-1fb795aff3.zip/node_modules/left-pad/",\
           "packageDependencies": [\
             ["left-pad", "patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch::version=1.3.0&hash=629bda&locator=berryscary%40workspace%3A."]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["minimist", [\
+        ["https://github.com/minimistjs/minimist.git#commit=fdbb909cf916b3bac9f76f6ee72c64e05b73c2d9", {\
+          "packageLocation": "./.yarn/cache/minimist-https-5dca9c9f07-b319e42379.zip/node_modules/minimist/",\
+          "packageDependencies": [\
+            ["minimist", "https://github.com/minimistjs/minimist.git#commit=fdbb909cf916b3bac9f76f6ee72c64e05b73c2d9"]\
           ],\
           "linkType": "HARD"\
         }]\
