@@ -27,7 +27,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["berryscary", ["workspace:."]],\
+      ["berryscary", ["virtual:1d844f59e9b882db9724aba3b0061ce9597b72d7da6d8ec4c53aa295c77d1c165f50f5fa06c01a47dffcf4cef7f41c60a1799561987217d9cb6317baa2ac5b2b#workspace:.", "workspace:."]],\
       ["old-man-from-scene-24", ["workspace:packages/old-man-from-scene-24"]],\
       ["the-answer", ["workspace:packages/the-answer"]]\
     ],\
@@ -139,6 +139,41 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["berryscary", [\
+        ["virtual:1d844f59e9b882db9724aba3b0061ce9597b72d7da6d8ec4c53aa295c77d1c165f50f5fa06c01a47dffcf4cef7f41c60a1799561987217d9cb6317baa2ac5b2b#workspace:.", {\
+          "packageLocation": "./.yarn/__virtual__/berryscary-virtual-de312d79e6/1/",\
+          "packageDependencies": [\
+            ["berryscary", "virtual:1d844f59e9b882db9724aba3b0061ce9597b72d7da6d8ec4c53aa295c77d1c165f50f5fa06c01a47dffcf4cef7f41c60a1799561987217d9cb6317baa2ac5b2b#workspace:."],\
+            ["@types/node", "npm:20.4.5"],\
+            ["@types/react", null],\
+            ["@types/yargs", "npm:17.0.24"],\
+            ["ansi-regex-link", "link:external-packages/ansi-regex::locator=berryscary%40workspace%3A."],\
+            ["c2-wo-deps", "https://bitbucket.org/cachi-testing/cachi2-without-deps.git#commit=9e164b97043a2d91bbeb992f6cc68a3d1015086a"],\
+            ["c2-wo-deps-2", "https://bitbucket.org/cachi-testing/cachi2-without-deps-second/get/09992d418fc44a2895b7a9ff27c4e32d6f74a982.tar.gz"],\
+            ["ccto-wo-deps", "git@github.com:cachito-testing/cachito-npm-without-deps.git#commit=2f0ce1d7b1f8b35572d919428b965285a69583f6"],\
+            ["chalk", "npm:5.3.0"],\
+            ["date-in-spanish", [\
+              "fecha",\
+              "npm:4.2.3"\
+            ]],\
+            ["emoji-regex", "https://github.com/mathiasbynens/emoji-regex.git#commit=6acf03a84f4ceb0728643057fd03ea8f0f970555"],\
+            ["holy-hand-grenade", "exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A."],\
+            ["is-positive", "https://github.com/kevva/is-positive.git#commit=97edff6f525f192a3f83cea1944765f769ae2678"],\
+            ["left-pad", "patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch::version=1.3.0&hash=629bda&locator=berryscary%40workspace%3A."],\
+            ["minimist", "https://github.com/minimistjs/minimist.git#commit=fdbb909cf916b3bac9f76f6ee72c64e05b73c2d9"],\
+            ["old-man-from-scene-24", "workspace:packages/old-man-from-scene-24"],\
+            ["once-portal", "portal:external-packages/once::locator=berryscary%40workspace%3A."],\
+            ["react", null],\
+            ["strip-ansi-tarball", "file:external-packages/strip-ansi-4.0.0.tgz::locator=berryscary%40workspace%3A."],\
+            ["supports-hyperlinks-folder", "file:external-packages/supports-hyperlinks#external-packages/supports-hyperlinks::hash=cfa5f5&locator=berryscary%40workspace%3A."],\
+            ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
+            ["yargs", "npm:17.7.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "SOFT"\
+        }],\
         ["workspace:.", {\
           "packageLocation": "./",\
           "packageDependencies": [\
@@ -445,7 +480,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["the-answer", "workspace:packages/the-answer"],\
             ["@types/proxy-from-env", "npm:1.0.1"],\
             ["@types/yargs", "npm:17.0.24"],\
-            ["berryscary", "workspace:."],\
+            ["berryscary", "virtual:1d844f59e9b882db9724aba3b0061ce9597b72d7da6d8ec4c53aa295c77d1c165f50f5fa06c01a47dffcf4cef7f41c60a1799561987217d9cb6317baa2ac5b2b#workspace:."],\
             ["is-positive", "https://github.com/kevva/is-positive.git#commit=f0c336c9587d43d97932395b1d2798c298dad40b"],\
             ["old-man-from-scene-24", "workspace:packages/old-man-from-scene-24"],\
             ["proxy-from-env", "npm:1.1.0"],\

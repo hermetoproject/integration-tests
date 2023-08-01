@@ -35,5 +35,8 @@
   "optionalDependencies": {
     "chalk": "^5.3.0",
     "minimist": "minimistjs/minimist"
+  },
+  "peerDependencies": {
+    "react": "*"
   }
 }
