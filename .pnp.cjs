@@ -18,13 +18,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       {\
         "name": "old-man-from-scene-24",\
         "reference": "workspace:packages/old-man-from-scene-24"\
+      },\
+      {\
+        "name": "the-answer",\
+        "reference": "workspace:packages/the-answer"\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
       ["berryscary", ["workspace:."]],\
-      ["old-man-from-scene-24", ["workspace:packages/old-man-from-scene-24"]]\
+      ["old-man-from-scene-24", ["workspace:packages/old-man-from-scene-24"]],\
+      ["the-answer", ["workspace:packages/the-answer"]]\
     ],\
     "fallbackPool": [\
     ],\
@@ -59,6 +64,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["npm:20.4.5", {\
           "packageLocation": "./.yarn/cache/@types-node-npm-20.4.5-7555fad0d4-36a0304a8d.zip/node_modules/@types/node/",\
           "packageDependencies": [\
+            ["@types/node", "npm:20.4.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/proxy-from-env", [\
+        ["npm:1.0.1", {\
+          "packageLocation": "./.yarn/cache/@types-proxy-from-env-npm-1.0.1-3c742c30c3-72d04675fc.zip/node_modules/@types/proxy-from-env/",\
+          "packageDependencies": [\
+            ["@types/proxy-from-env", "npm:1.0.1"],\
             ["@types/node", "npm:20.4.5"]\
           ],\
           "linkType": "HARD"\
@@ -265,6 +280,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-positive", "https://github.com/kevva/is-positive.git#commit=97edff6f525f192a3f83cea1944765f769ae2678"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["https://github.com/kevva/is-positive.git#commit=f0c336c9587d43d97932395b1d2798c298dad40b", {\
+          "packageLocation": "./.yarn/cache/is-positive-https-add3cc7ae7-9ae70022a3.zip/node_modules/is-positive/",\
+          "packageDependencies": [\
+            ["is-positive", "https://github.com/kevva/is-positive.git#commit=f0c336c9587d43d97932395b1d2798c298dad40b"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["left-pad", [\
@@ -293,6 +315,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["wrappy", "npm:1.0.2"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["proxy-from-env", [\
+        ["npm:1.1.0", {\
+          "packageLocation": "./.yarn/cache/proxy-from-env-npm-1.1.0-c13d07f26b-ed7fcc2ba0.zip/node_modules/proxy-from-env/",\
+          "packageDependencies": [\
+            ["proxy-from-env", "npm:1.1.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["require-directory", [\
@@ -327,6 +358,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["strip-ansi-tarball", [\
+        ["file:../../external-packages/strip-ansi-4.0.0.tgz::locator=the-answer%40workspace%3Apackages%2Fthe-answer", {\
+          "packageLocation": "./.yarn/cache/strip-ansi-tarball-file-489a50cded-d67629c877.zip/node_modules/strip-ansi-tarball/",\
+          "packageDependencies": [\
+            ["strip-ansi-tarball", "file:../../external-packages/strip-ansi-4.0.0.tgz::locator=the-answer%40workspace%3Apackages%2Fthe-answer"],\
+            ["ansi-regex", "npm:3.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["file:external-packages/strip-ansi-4.0.0.tgz::locator=berryscary%40workspace%3A.", {\
           "packageLocation": "./.yarn/cache/strip-ansi-tarball-file-3176cc06fb-d67629c877.zip/node_modules/strip-ansi-tarball/",\
           "packageDependencies": [\
@@ -355,6 +394,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["supports-color", "npm:7.2.0"]\
           ],\
           "linkType": "HARD"\
+        }]\
+      ]],\
+      ["the-answer", [\
+        ["workspace:packages/the-answer", {\
+          "packageLocation": "./packages/the-answer/",\
+          "packageDependencies": [\
+            ["the-answer", "workspace:packages/the-answer"],\
+            ["@types/proxy-from-env", "npm:1.0.1"],\
+            ["@types/yargs", "npm:17.0.24"],\
+            ["berryscary", "workspace:."],\
+            ["is-positive", "https://github.com/kevva/is-positive.git#commit=f0c336c9587d43d97932395b1d2798c298dad40b"],\
+            ["old-man-from-scene-24", "workspace:packages/old-man-from-scene-24"],\
+            ["proxy-from-env", "npm:1.1.0"],\
+            ["strip-ansi-tarball", "file:../../external-packages/strip-ansi-4.0.0.tgz::locator=the-answer%40workspace%3Apackages%2Fthe-answer"],\
+            ["yargs", "npm:17.7.2"]\
+          ],\
+          "linkType": "SOFT"\
         }]\
       ]],\
       ["typescript", [\

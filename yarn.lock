@@ -5,10 +5,19 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@types/node@npm:^20.4.5":
+"@types/node@npm:*, @types/node@npm:^20.4.5":
   version: 20.4.5
   resolution: "@types/node@npm:20.4.5"
   checksum: 36a0304a8dc346a1b2d2edac4c4633eecf70875793d61a5274d0df052d7a7af7a8e34f29884eac4fbd094c4f0201477dcb39c0ecd3307ca141688806538d1138
+  languageName: node
+  linkType: hard
+
+"@types/proxy-from-env@npm:^1":
+  version: 1.0.1
+  resolution: "@types/proxy-from-env@npm:1.0.1"
+  dependencies:
+    "@types/node": "*"
+  checksum: 72d04675fc7107d4a1d4a2ca56773d0caf23bdd48fa45b96b72b199f33f54854164b994c45f549214c51227f8bb9ae4e189e48d74a4a46b668fd4210bf97f8c0
   languageName: node
   linkType: hard
 
@@ -57,7 +66,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"berryscary@workspace:.":
+"berryscary@workspace:., berryscary@workspace:^":
   version: 0.0.0-use.local
   resolution: "berryscary@workspace:."
   dependencies:
@@ -178,6 +187,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"is-positive@github:kevva/is-positive#semver=3.0.0":
+  version: 3.0.0
+  resolution: "is-positive@https://github.com/kevva/is-positive.git#commit=f0c336c9587d43d97932395b1d2798c298dad40b"
+  checksum: 9ae70022a3197b53acdf059109ff7745c0538f9520d3bccde2f1563895f803cc00cdb3ce66a405f29a6de66cbe8fbf10bfe65c5b53569269b839e68a4895a2f4
+  languageName: node
+  linkType: hard
+
 "left-pad@npm:1.3.0":
   version: 1.3.0
   resolution: "left-pad@npm:1.3.0"
@@ -206,6 +222,13 @@ __metadata:
   languageName: node
   linkType: soft
 
+"proxy-from-env@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "proxy-from-env@npm:1.1.0"
+  checksum: ed7fcc2ba0a33404958e34d95d18638249a68c430e30fcb6c478497d72739ba64ce9810a24f53a7d921d0c065e5b78e3822759800698167256b04659366ca4d4
+  languageName: node
+  linkType: hard
+
 "require-directory@npm:^2.1.1":
   version: 2.1.1
   resolution: "require-directory@npm:2.1.1"
@@ -221,6 +244,15 @@ __metadata:
     is-fullwidth-code-point: ^3.0.0
     strip-ansi: ^6.0.1
   checksum: e52c10dc3fbfcd6c3a15f159f54a90024241d0f149cf8aed2982a2d801d2e64df0bf1dc351cf8e95c3319323f9f220c16e740b06faecd53e2462df1d2b5443fb
+  languageName: node
+  linkType: hard
+
+"strip-ansi-tarball@file:../../external-packages/strip-ansi-4.0.0.tgz::locator=the-answer%40workspace%3Apackages%2Fthe-answer":
+  version: 4.0.0
+  resolution: "strip-ansi-tarball@file:../../external-packages/strip-ansi-4.0.0.tgz::locator=the-answer%40workspace%3Apackages%2Fthe-answer"
+  dependencies:
+    ansi-regex: ^3.0.0
+  checksum: d67629c87783bc1138a64f6495439b40f568424a05e068c341b4fc330745e8ba6e7f93536549883054c1da58761f0ce6ab039a233014b38240304d3c45f85ac6
   languageName: node
   linkType: hard
 
@@ -260,6 +292,23 @@ __metadata:
   checksum: dfb0b4a1f2a09850447219e5d72af479e7c85da90b60d11b2904cc59e36d13248ca4de1e05c13ecc583c41c9888d7589b6d4dbb941ce6d5acbac72a34f54414f
   languageName: node
   linkType: hard
+
+"the-answer@workspace:packages/the-answer":
+  version: 0.0.0-use.local
+  resolution: "the-answer@workspace:packages/the-answer"
+  dependencies:
+    "@types/proxy-from-env": ^1
+    "@types/yargs": ^17
+    berryscary: "workspace:^"
+    is-positive: "github:kevva/is-positive#semver=3.0.0"
+    old-man-from-scene-24: "workspace:^"
+    proxy-from-env: ^1.1.0
+    strip-ansi-tarball: "file:../../external-packages/strip-ansi-4.0.0.tgz"
+    yargs: ^17.7.2
+  bin:
+    the-answer: index.js
+  languageName: unknown
+  linkType: soft
 
 "typescript@npm:^5.1.6":
   version: 5.1.6
