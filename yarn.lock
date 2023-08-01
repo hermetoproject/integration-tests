@@ -51,6 +51,7 @@ __metadata:
     "@types/node": ^20.4.5
     "@types/yargs": ^17
     date-in-spanish: "npm:fecha@latest"
+    holy-hand-grenade: "exec:./generate-holy-hand-grenade.js"
     old-man-from-scene-24: "workspace:^"
     typescript: ^5.1.6
     yargs: ^17.7.2
@@ -111,6 +112,13 @@ __metadata:
   version: 2.0.5
   resolution: "get-caller-file@npm:2.0.5"
   checksum: b9769a836d2a98c3ee734a88ba712e62703f1df31b94b784762c433c27a386dd6029ff55c2a920c392e33657d80191edbf18c61487e198844844516f843496b9
+  languageName: node
+  linkType: hard
+
+"holy-hand-grenade@exec:./generate-holy-hand-grenade.js::locator=berryscary%40workspace%3A.":
+  version: 1.0.0
+  resolution: "holy-hand-grenade@exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A."
+  checksum: 6053ad5dc79d8fedfdc528e1bf75e3f4a1a4558a8184f55589e1e54ab8819f5111ffc1812333906cfcfa05fdd3e81d9b65191d1a093066f3a3f479a61c626be9
   languageName: node
   linkType: hard
 

@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "date-in-spanish": "npm:fecha@latest",
+    "holy-hand-grenade": "exec:./generate-holy-hand-grenade.js",
     "old-man-from-scene-24": "workspace:^",
     "yargs": "^17.7.2"
   },

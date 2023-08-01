@@ -39,6 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
               "fecha",\
               "npm:4.2.3"\
             ]],\
+            ["holy-hand-grenade", "exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A."],\
             ["old-man-from-scene-24", "workspace:packages/old-man-from-scene-24"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
             ["yargs", "npm:17.7.2"]\
@@ -104,6 +105,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
               "fecha",\
               "npm:4.2.3"\
             ]],\
+            ["holy-hand-grenade", "exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A."],\
             ["old-man-from-scene-24", "workspace:packages/old-man-from-scene-24"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
             ["yargs", "npm:17.7.2"]\
@@ -174,6 +176,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/get-caller-file-npm-2.0.5-80e8a86305-b9769a836d.zip/node_modules/get-caller-file/",\
           "packageDependencies": [\
             ["get-caller-file", "npm:2.0.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["holy-hand-grenade", [\
+        ["exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A.", {\
+          "packageLocation": "./.yarn/cache/holy-hand-grenade-exec-e88e9eb6dd-6053ad5dc7.zip/node_modules/holy-hand-grenade/",\
+          "packageDependencies": [\
+            ["holy-hand-grenade", "exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A."]\
           ],\
           "linkType": "HARD"\
         }]\
