@@ -14,12 +14,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       {\
         "name": "berryscary",\
         "reference": "workspace:."\
+      },\
+      {\
+        "name": "old-man-from-scene-24",\
+        "reference": "workspace:packages/old-man-from-scene-24"\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["berryscary", ["workspace:."]]\
+      ["berryscary", ["workspace:."]],\
+      ["old-man-from-scene-24", ["workspace:packages/old-man-from-scene-24"]]\
     ],\
     "fallbackPool": [\
     ],\
@@ -34,6 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
               "fecha",\
               "npm:4.2.3"\
             ]],\
+            ["old-man-from-scene-24", "workspace:packages/old-man-from-scene-24"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
             ["yargs", "npm:17.7.2"]\
           ],\
@@ -98,6 +104,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
               "fecha",\
               "npm:4.2.3"\
             ]],\
+            ["old-man-from-scene-24", "workspace:packages/old-man-from-scene-24"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"],\
             ["yargs", "npm:17.7.2"]\
           ],\
@@ -178,6 +185,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-fullwidth-code-point", "npm:3.0.0"]\
           ],\
           "linkType": "HARD"\
+        }]\
+      ]],\
+      ["old-man-from-scene-24", [\
+        ["workspace:packages/old-man-from-scene-24", {\
+          "packageLocation": "./packages/old-man-from-scene-24/",\
+          "packageDependencies": [\
+            ["old-man-from-scene-24", "workspace:packages/old-man-from-scene-24"]\
+          ],\
+          "linkType": "SOFT"\
         }]\
       ]],\
       ["require-directory", [\

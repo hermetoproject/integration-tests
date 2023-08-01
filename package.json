@@ -12,6 +12,10 @@
   },
   "dependencies": {
     "date-in-spanish": "npm:fecha@latest",
+    "old-man-from-scene-24": "workspace:^",
     "yargs": "^17.7.2"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }

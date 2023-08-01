@@ -51,6 +51,7 @@ __metadata:
     "@types/node": ^20.4.5
     "@types/yargs": ^17
     date-in-spanish: "npm:fecha@latest"
+    old-man-from-scene-24: "workspace:^"
     typescript: ^5.1.6
     yargs: ^17.7.2
   bin:
@@ -119,6 +120,12 @@ __metadata:
   checksum: 44a30c29457c7fb8f00297bce733f0a64cd22eca270f83e58c105e0d015e45c019491a4ab2faef91ab51d4738c670daff901c799f6a700e27f7314029e99e348
   languageName: node
   linkType: hard
+
+"old-man-from-scene-24@workspace:^, old-man-from-scene-24@workspace:packages/old-man-from-scene-24":
+  version: 0.0.0-use.local
+  resolution: "old-man-from-scene-24@workspace:packages/old-man-from-scene-24"
+  languageName: unknown
+  linkType: soft
 
 "require-directory@npm:^2.1.1":
   version: 2.1.1
