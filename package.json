@@ -13,6 +13,7 @@
   "dependencies": {
     "ansi-regex-link": "link:external-packages/ansi-regex",
     "c2-wo-deps": "https://bitbucket.org/cachi-testing/cachi2-without-deps.git",
+    "c2-wo-deps-2": "https://bitbucket.org/cachi-testing/cachi2-without-deps-second/get/09992d418fc44a2895b7a9ff27c4e32d6f74a982.tar.gz",
     "ccto-wo-deps": "git@github.com:cachito-testing/cachito-npm-without-deps.git",
     "date-in-spanish": "npm:fecha@latest",
     "holy-hand-grenade": "exec:./generate-holy-hand-grenade.js",

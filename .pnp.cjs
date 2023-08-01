@@ -42,6 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/yargs", "npm:17.0.24"],\
             ["ansi-regex-link", "link:external-packages/ansi-regex::locator=berryscary%40workspace%3A."],\
             ["c2-wo-deps", "https://bitbucket.org/cachi-testing/cachi2-without-deps.git#commit=9e164b97043a2d91bbeb992f6cc68a3d1015086a"],\
+            ["c2-wo-deps-2", "https://bitbucket.org/cachi-testing/cachi2-without-deps-second/get/09992d418fc44a2895b7a9ff27c4e32d6f74a982.tar.gz"],\
             ["ccto-wo-deps", "git@github.com:cachito-testing/cachito-npm-without-deps.git#commit=2f0ce1d7b1f8b35572d919428b965285a69583f6"],\
             ["date-in-spanish", [\
               "fecha",\
@@ -143,6 +144,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/yargs", "npm:17.0.24"],\
             ["ansi-regex-link", "link:external-packages/ansi-regex::locator=berryscary%40workspace%3A."],\
             ["c2-wo-deps", "https://bitbucket.org/cachi-testing/cachi2-without-deps.git#commit=9e164b97043a2d91bbeb992f6cc68a3d1015086a"],\
+            ["c2-wo-deps-2", "https://bitbucket.org/cachi-testing/cachi2-without-deps-second/get/09992d418fc44a2895b7a9ff27c4e32d6f74a982.tar.gz"],\
             ["ccto-wo-deps", "git@github.com:cachito-testing/cachito-npm-without-deps.git#commit=2f0ce1d7b1f8b35572d919428b965285a69583f6"],\
             ["date-in-spanish", [\
               "fecha",\
@@ -166,6 +168,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/c2-wo-deps-https-1e4335033e-7af2e8eaba.zip/node_modules/c2-wo-deps/",\
           "packageDependencies": [\
             ["c2-wo-deps", "https://bitbucket.org/cachi-testing/cachi2-without-deps.git#commit=9e164b97043a2d91bbeb992f6cc68a3d1015086a"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["c2-wo-deps-2", [\
+        ["https://bitbucket.org/cachi-testing/cachi2-without-deps-second/get/09992d418fc44a2895b7a9ff27c4e32d6f74a982.tar.gz", {\
+          "packageLocation": "./.yarn/cache/c2-wo-deps-2-https-4261b189d8-b194fd1f4a.zip/node_modules/c2-wo-deps-2/",\
+          "packageDependencies": [\
+            ["c2-wo-deps-2", "https://bitbucket.org/cachi-testing/cachi2-without-deps-second/get/09992d418fc44a2895b7a9ff27c4e32d6f74a982.tar.gz"]\
           ],\
           "linkType": "HARD"\
         }]\
