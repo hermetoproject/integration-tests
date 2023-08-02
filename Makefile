@@ -4,6 +4,7 @@ all: build run
 
 build: prefetch clean
 	podman build . \
+		--no-cache \
 		--network none \
 		-v $(YARN_GLOBAL_FOLDER):$(YARN_GLOBAL_FOLDER):z \
 		--build-arg YARN_GLOBAL_FOLDER=$(YARN_GLOBAL_FOLDER) \
