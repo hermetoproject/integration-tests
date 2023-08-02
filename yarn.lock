@@ -270,10 +270,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ccto-wo-deps@git@github.com:cachito-testing/cachito-npm-without-deps.git":
+"ccto-wo-deps@git@github.com:cachito-testing/cachito-npm-without-deps.git#commit=2f0ce1d7b1f8b35572d919428b965285a69583f6":
   version: 1.0.0
   resolution: "ccto-wo-deps@git@github.com:cachito-testing/cachito-npm-without-deps.git#commit=2f0ce1d7b1f8b35572d919428b965285a69583f6"
   checksum: 3ed9ea417c75a1999925159e67cf04bf2d522967692a55321559ef2b353fa690167b7bc40e989e4ee35e36d095f007f2d0c53faeb55f14d07ec3ece34faba206
+  languageName: node
+  linkType: hard
+
+"ccto-wo-deps@patch:ccto-wo-deps@git@github.com%3Acachito-testing/cachito-npm-without-deps.git%23commit=2f0ce1d7b1f8b35572d919428b965285a69583f6#./.yarn/patches/ccto-wo-deps-git@github.com-e0fce8c89c.patch::locator=berryscary%40workspace%3A.":
+  version: 1.0.0
+  resolution: "ccto-wo-deps@patch:ccto-wo-deps@git@github.com%3Acachito-testing/cachito-npm-without-deps.git%23commit=2f0ce1d7b1f8b35572d919428b965285a69583f6#./.yarn/patches/ccto-wo-deps-git@github.com-e0fce8c89c.patch::version=1.0.0&hash=51a91f&locator=berryscary%40workspace%3A."
+  checksum: 98355f046f66b70b4ae4aec87fb20c83eb635a7138b5bb25dcbfa567ae4fcc4240ff1178de2f985776ab6cea1f55af8e085d798f5077b8a8b5bb5cb5278293d4
   languageName: node
   linkType: hard
 
