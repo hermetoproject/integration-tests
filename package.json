@@ -3,7 +3,10 @@
   "packageManager": "yarn@3.6.1",
   "bin": "dist/app.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "preinstall": "touch pwned-from-preinstall.txt",
+    "install": "touch pwned-from-install.txt",
+    "postinstall": "touch pwned-from-postinstall.txt"
   },
   "devDependencies": {
     "@types/node": "^20.4.5",
