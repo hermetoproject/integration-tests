@@ -53,7 +53,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
             ["holy-hand-grenade", "exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A."],\
             ["is-positive", "https://github.com/kevva/is-positive.git#commit=97edff6f525f192a3f83cea1944765f769ae2678"],\
-            ["left-pad", "patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch::version=1.3.0&hash=629bda&locator=berryscary%40workspace%3A."],\
+            ["left-pad", "patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch&./my-patches/left-pad-2.patch::version=1.3.0&hash=a0f8ae&locator=berryscary%40workspace%3A."],\
             ["minimist", "https://github.com/minimistjs/minimist.git#commit=fdbb909cf916b3bac9f76f6ee72c64e05b73c2d9"],\
             ["old-man-from-scene-24", "workspace:packages/old-man-from-scene-24"],\
             ["once-portal", "portal:external-packages/once::locator=berryscary%40workspace%3A."],\
@@ -298,7 +298,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
             ["holy-hand-grenade", "exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A."],\
             ["is-positive", "https://github.com/kevva/is-positive.git#commit=97edff6f525f192a3f83cea1944765f769ae2678"],\
-            ["left-pad", "patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch::version=1.3.0&hash=629bda&locator=berryscary%40workspace%3A."],\
+            ["left-pad", "patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch&./my-patches/left-pad-2.patch::version=1.3.0&hash=a0f8ae&locator=berryscary%40workspace%3A."],\
             ["minimist", "https://github.com/minimistjs/minimist.git#commit=fdbb909cf916b3bac9f76f6ee72c64e05b73c2d9"],\
             ["old-man-from-scene-24", "workspace:packages/old-man-from-scene-24"],\
             ["once-portal", "portal:external-packages/once::locator=berryscary%40workspace%3A."],\
@@ -334,7 +334,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
             ["holy-hand-grenade", "exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A."],\
             ["is-positive", "https://github.com/kevva/is-positive.git#commit=97edff6f525f192a3f83cea1944765f769ae2678"],\
-            ["left-pad", "patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch::version=1.3.0&hash=629bda&locator=berryscary%40workspace%3A."],\
+            ["left-pad", "patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch&./my-patches/left-pad-2.patch::version=1.3.0&hash=a0f8ae&locator=berryscary%40workspace%3A."],\
             ["minimist", "https://github.com/minimistjs/minimist.git#commit=fdbb909cf916b3bac9f76f6ee72c64e05b73c2d9"],\
             ["old-man-from-scene-24", "workspace:packages/old-man-from-scene-24"],\
             ["once-portal", "portal:external-packages/once::locator=berryscary%40workspace%3A."],\
@@ -930,10 +930,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["left-pad", [\
-        ["patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch::version=1.3.0&hash=629bda&locator=berryscary%40workspace%3A.", {\
-          "packageLocation": "./.yarn/cache/left-pad-patch-391c091200-1fb795aff3.zip/node_modules/left-pad/",\
+        ["patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch&./my-patches/left-pad-2.patch::version=1.3.0&hash=a0f8ae&locator=berryscary%40workspace%3A.", {\
+          "packageLocation": "./.yarn/cache/left-pad-patch-495310d4ea-1db79280f7.zip/node_modules/left-pad/",\
           "packageDependencies": [\
-            ["left-pad", "patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch::version=1.3.0&hash=629bda&locator=berryscary%40workspace%3A."]\
+            ["left-pad", "patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch&./my-patches/left-pad-2.patch::version=1.3.0&hash=a0f8ae&locator=berryscary%40workspace%3A."]\
           ],\
           "linkType": "HARD"\
         }]\
