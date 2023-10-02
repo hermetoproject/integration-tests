@@ -194,7 +194,7 @@ __metadata:
     fsevents: ^2.3.2
     holy-hand-grenade: "exec:./generate-holy-hand-grenade.js"
     is-positive: "github:kevva/is-positive"
-    left-pad: "patch:left-pad@1.3.0#./my-patches/left-pad.patch"
+    left-pad: "patch:left-pad@1.3.0#./my-patches/left-pad.patch&./my-patches/left-pad-2.patch"
     minimist: minimistjs/minimist
     old-man-from-scene-24: "workspace:^"
     once-portal: "portal:external-packages/once"
@@ -737,10 +737,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"left-pad@patch:left-pad@1.3.0#./my-patches/left-pad.patch::locator=berryscary%40workspace%3A.":
+"left-pad@patch:left-pad@1.3.0#./my-patches/left-pad.patch&./my-patches/left-pad-2.patch::locator=berryscary%40workspace%3A.":
   version: 1.3.0
-  resolution: "left-pad@patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch::version=1.3.0&hash=629bda&locator=berryscary%40workspace%3A."
-  checksum: 1fb795aff3df86466fa2063ce1db288da15de0db63c624a3d921abab6b3d079093b035c093382fc009afc07da33d65c97b6728ded0efedac999f6f6e1ddf13c3
+  resolution: "left-pad@patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch&./my-patches/left-pad-2.patch::version=1.3.0&hash=a0f8ae&locator=berryscary%40workspace%3A."
+  checksum: 1db79280f7d08c7a19e9ac70928f1d900e1ecca35fa24856200cdeefd4337da05e7cd4c4ffcfa1d030315a4102f6af80ed8c46ad253d30f75b060e3a67070abc
   languageName: node
   linkType: hard
 
