@@ -38,7 +38,7 @@
   ],
   "optionalDependencies": {
     "chalk": "^5.3.0",
-    "fsevents": "^2.3.2",
+    "fsevents": "patch:fsevents@^2.3.2#./my-patches/fsevents.patch",
     "minimist": "minimistjs/minimist"
   },
   "peerDependencies": {
