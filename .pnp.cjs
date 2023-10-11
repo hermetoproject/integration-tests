@@ -50,7 +50,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ]],\
             ["emoji-regex", "https://github.com/mathiasbynens/emoji-regex/archive/refs/tags/v10.2.1.tar.gz"],\
             ["fsevents", "patch:fsevents@patch%3Afsevents@npm%253A2.3.2%23./my-patches/fsevents.patch%3A%3Aversion=2.3.2&hash=cf0bf0&locator=berryscary%2540workspace%253A.#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
-            ["holy-hand-grenade", "exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A."],\
+            ["holy-hand-grenade", "link:book-of-armaments::locator=berryscary%40workspace%3A."],\
             ["is-positive", "https://github.com/kevva/is-positive/archive/refs/tags/3.1.0.tar.gz"],\
             ["left-pad", "patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch&./my-patches/left-pad-2.patch::version=1.3.0&hash=a0f8ae&locator=berryscary%40workspace%3A."],\
             ["minimist", "https://github.com/minimistjs/minimist/archive/refs/tags/v0.2.4.tar.gz"],\
@@ -294,7 +294,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ]],\
             ["emoji-regex", "https://github.com/mathiasbynens/emoji-regex/archive/refs/tags/v10.2.1.tar.gz"],\
             ["fsevents", "patch:fsevents@patch%3Afsevents@npm%253A2.3.2%23./my-patches/fsevents.patch%3A%3Aversion=2.3.2&hash=cf0bf0&locator=berryscary%2540workspace%253A.#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
-            ["holy-hand-grenade", "exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A."],\
+            ["holy-hand-grenade", "link:book-of-armaments::locator=berryscary%40workspace%3A."],\
             ["is-positive", "https://github.com/kevva/is-positive/archive/refs/tags/3.1.0.tar.gz"],\
             ["left-pad", "patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch&./my-patches/left-pad-2.patch::version=1.3.0&hash=a0f8ae&locator=berryscary%40workspace%3A."],\
             ["minimist", "https://github.com/minimistjs/minimist/archive/refs/tags/v0.2.4.tar.gz"],\
@@ -329,7 +329,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ]],\
             ["emoji-regex", "https://github.com/mathiasbynens/emoji-regex/archive/refs/tags/v10.2.1.tar.gz"],\
             ["fsevents", "patch:fsevents@patch%3Afsevents@npm%253A2.3.2%23./my-patches/fsevents.patch%3A%3Aversion=2.3.2&hash=cf0bf0&locator=berryscary%2540workspace%253A.#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
-            ["holy-hand-grenade", "exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A."],\
+            ["holy-hand-grenade", "link:book-of-armaments::locator=berryscary%40workspace%3A."],\
             ["is-positive", "https://github.com/kevva/is-positive/archive/refs/tags/3.1.0.tar.gz"],\
             ["left-pad", "patch:left-pad@npm%3A1.3.0#./my-patches/left-pad.patch&./my-patches/left-pad-2.patch::version=1.3.0&hash=a0f8ae&locator=berryscary%40workspace%3A."],\
             ["minimist", "https://github.com/minimistjs/minimist/archive/refs/tags/v0.2.4.tar.gz"],\
@@ -756,12 +756,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["holy-hand-grenade", [\
-        ["exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A.", {\
-          "packageLocation": "./.yarn/cache/holy-hand-grenade-exec-e88e9eb6dd-6053ad5dc7.zip/node_modules/holy-hand-grenade/",\
+        ["link:book-of-armaments::locator=berryscary%40workspace%3A.", {\
+          "packageLocation": "./book-of-armaments/",\
           "packageDependencies": [\
-            ["holy-hand-grenade", "exec:./generate-holy-hand-grenade.js#./generate-holy-hand-grenade.js::hash=3b5cbd&locator=berryscary%40workspace%3A."]\
+            ["holy-hand-grenade", "link:book-of-armaments::locator=berryscary%40workspace%3A."]\
           ],\
-          "linkType": "HARD"\
+          "linkType": "SOFT",\
+          "discardFromLookup": true\
         }]\
       ]],\
       ["http-cache-semantics", [\
