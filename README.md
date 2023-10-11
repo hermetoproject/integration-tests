@@ -11,8 +11,8 @@ There is no need to run `yarn install`.
 - [x] Semver
 - [ ] Tag
 - [x] Npm alias
-- [x] Git
-- [x] GitHub
+- [ ] ~~Git~~
+- [ ] ~~GitHub~~
 - [x] File
 - [x] Link
 - [x] Patch
@@ -20,6 +20,8 @@ There is no need to run `yarn install`.
 - [x] Workspace
 - [x] Exec
 - [x] Https
+
+_Cachi2 does not support the Git and GitHub protocols._
 
 ## Dependencies
 
