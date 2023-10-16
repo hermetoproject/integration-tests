@@ -15,10 +15,10 @@ It does not use zero-installs feature - file `.pnp.cjs` and directory `.yarn/cac
 - [x] Patch
 - [x] Portal
 - [x] Workspace
-- [x] Exec
+- [ ] ~~Exec~~
 - [x] Https
 
-_Cachi2 does not support the Git and GitHub protocols._
+_Cachi2 does not support the Git, GitHub and Exec protocols._
 
 ## [Pre|Post install scripts](https://yarnpkg.com/advanced/lifecycle-scripts)
 
