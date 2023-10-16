@@ -4,7 +4,7 @@
   "bin": "index.js",
   "dependencies": {
     "berryscary": "workspace:^",
-    "is-positive": "github:kevva/is-positive#semver=3.0.0",
+    "is-positive": "https://github.com/kevva/is-positive/archive/refs/tags/3.0.0.tar.gz",
     "proxy-from-env": "^1.1.0"
   },
   "devDependencies": {
