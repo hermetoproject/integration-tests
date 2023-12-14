@@ -1,5 +1,9 @@
-# cachi2-yarn-berry
+# Yarnberry Regular Workflow Integration Test
 
-Repository for testing cachi2 yarn berry support.
+This integration test is a regular workflow test for Yarnberry.
 
-See other branches for different test cases.
+It does not use zero-installs feature - file `.pnp.cjs` and directory
+`.yarn/cache` are missing.
+
+Its purpose is to verify that cachi2 will correctly fail a request if a
+dependency in "yarn.lock" has an incorrect checksum.
