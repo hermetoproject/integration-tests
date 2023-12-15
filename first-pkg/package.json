@@ -1,5 +1,5 @@
 {
-  "name": "first_pkg",
+  "name": "first-pkg",
   "packageManager": "yarn@3.7.0",
   "dependencies": {
     "lodash": "^4.17.21"
