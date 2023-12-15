@@ -2,6 +2,7 @@
   "name": "second_pkg",
   "packageManager": "yarn@3.7.0",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4"
   }
 }
