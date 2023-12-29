@@ -1,13 +1,21 @@
-# Hermeto integration tests repository
+# Cachi2 Rust
 
-This repository hosts the integration tests for our project. Each branch represents a different test
-case. Please ignore README.md files in those branches at the moment. They might not be up to date.
+This repository is meant to test a wide range of cases that can occur in Cachi2's processing of
+Rust.
 
-The branch names begin with a prefix indicating a package manager, followed by the
-test case name in the format: `<package-manager>/<test-case>`.
+## Cases Covered
 
-To create a new test please create or request a new branch in GitHub UI first
-and then open a PR against this branch. Alternatively, you can push an empty
-branch first if you have push rights. Please avoid pushing non-empty branches
-since that would hinder the visibility of changes made to this repository in
-context of the main project repository.
+- [ x ] Standard crates.io dependency
+- [ x ] crates.io dependency that is not pinned
+- [ x ] git dependency
+- [ x ] path dependency
+- [ x ] patched dependency
+- [ x ] workspaces
+- [ x ] workspace dependency inheritance
+- [   ] dev dependency
+- [   ] build dependency
+- [   ] dependency from non-standard registry
+- [   ] platform specific dependency
+- [   ] dependency with multiple-locations
+
+To see more about Cargo dependency types, check the [official docs](https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html).
