@@ -1,4 +1,4 @@
-# Yarnberry Regular Workflow Integration Test
+# yarn.lock Incorrect Checksum Yarn (Berry) Integration Test
 
 This integration test is a regular workflow test for Yarnberry.
 
