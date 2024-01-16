@@ -1,7 +1,0 @@
-{
-  "name": "third-pkg",
-  "packageManager": "yarn@3.7.0",
-  "devDependencies": {
-    "moment": "^2.29.4"
-  }
-}

@@ -1,9 +1,12 @@
 {
   "name": "second-pkg",
   "packageManager": "yarn@3.7.0",
+  "type": "module",
   "dependencies": {
-    "jsonwebtoken": "^9.0.2",
-    "lodash": "^4.17.21",
-    "moment": "^2.29.4"
+    "axios": "1.5.1",
+    "express": "4.18.2"
+  },
+  "devDependencies": {
+    "lodash": "4.17.21"
   }
 }

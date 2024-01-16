@@ -1,8 +1,9 @@
-const moment = require('moment');
+import lodash from 'lodash';
 
-let now = moment();
+let numbers = [1, 2, 3, 4, 5];
+let shuffledNumbers = lodash.shuffle(numbers);
 
-console.log("Hello from second-pkg!");
+console.log("Hello from second package!");
 
-console.log('Current date and time is:')
-console.log(now.format('YYYY-MM-DD HH:mm:ss'));
+console.log('Original numbers:', numbers);
+console.log('Shuffled numbers:', shuffledNumbers);
