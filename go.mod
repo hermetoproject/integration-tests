@@ -1,6 +1,8 @@
 module github.com/release-engineering/retrodep/v2
 
-go 1.18
+go 1.21
+
+toolchain go1.21.5
 
 require (
 	github.com/Masterminds/semver v1.4.2
