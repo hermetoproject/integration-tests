@@ -1,3 +1,4 @@
 [project]
-name = "wheels-of-fortune"
+name = "package"
 version = "0.1.0"
+dependencies = ["requests"]

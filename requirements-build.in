@@ -1,0 +1,6 @@
+calver
+flit_core<4,>=3.2
+hatchling<2,>=1.6.0
+setuptools>=40.8.0
+setuptools-scm>=6.2.3
+wheel
