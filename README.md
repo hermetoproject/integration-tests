@@ -1,3 +1,7 @@
-# Cachi2 RPM Test Scenarios
+# Cachi2 RPMs multiple architectures test
 
-This repo contain test scenarios for Cachi2's RPM prefetching feature. To access them, check the other available branches.
+This test the prefetching and reporting of RPMs present in two different architectures: x86_64 and aarch65. It contains the following scenarios:
+
+- Same package in two archs (vim-minimal)
+- Same package in two archs, but is missing checksums in one of them (vim-data)
+- One package in only one arch (vim-common)
