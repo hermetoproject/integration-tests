@@ -1,0 +1,16 @@
+lockfileVersion: 1
+lockfileVendor: redhat
+arches:
+  - arch: x86_64
+    packages:
+      - repoid: releases
+        url: http://fedora.c3sl.ufpr.br/linux/releases/40/Everything/x86_64/os/Packages/g/gpm-libs-1.20.7-46.fc40.x86_64.rpm
+        size: 20509
+        checksum: sha256:6d54af0fc5ae216eb97720415acda4245ebc6c021420a2892b58620b5b25ca38
+      - repoid: another-repoid
+        url: http://fedora.c3sl.ufpr.br/linux/releases/39/Everything/x86_64/os/Packages/w/which-2.21-40.fc39.x86_64.rpm
+        size: 42835
+        checksum: sha256:ec1d8a1c0d88883a03e96ba88a6278899bd559fb37833cb2383ffdd6a38c22ae
+      - url: http://fedora.c3sl.ufpr.br/linux/releases/40/Everything/x86_64/os/Packages/x/xxd-9.1.158-1.fc40.x86_64.rpm
+        size: 37596
+        checksum: sha256:06a340440747103054a6ae76479f446aafe78677a9339552c5774cb927fa2e9d
