@@ -1,0 +1,17 @@
+lockfileVersion: 1
+lockfileVendor: redhat
+arches:
+  - arch: x86_64
+    packages:
+      - repoid: releases
+        url: http://fedora.c3sl.ufpr.br/linux/releases/40/Everything/x86_64/os/Packages/g/gzip-1.13-1.fc40.x86_64.rpm
+        size: 174719
+        checksum: sha256:6dcc2f8885135fc873c8ab94a6c7df05883060c5b25287956bebb3aa15a84e71
+      - repoid: releases
+        url: http://fedora.c3sl.ufpr.br/linux/releases/40/Everything/x86_64/os/Packages/g/glibc-common-2.39-6.fc40.x86_64.rpm
+        size: 393779
+        checksum: sha256:45fe79ffea9358fc7a4f233e2358b08678bdec476680d0655063b4a4058e8789
+      - repoid: releases
+        url: http://fedora.c3sl.ufpr.br/linux/releases/40/Everything/x86_64/os/Packages/g/glibc-minimal-langpack-2.39-6.fc40.x86_64.rpm
+        size: 101945
+        checksum: sha256:9982f68ddcc3e972a2f3f220f29d56b0e9dde0e409bdecfe0bc559fe39013dde
