@@ -1,9 +1,8 @@
-import requests
+import tensorboard
 
 
 def main():
     print("Hello, world!")
-    print(requests.codes.teapot)
 
 
 if __name__ == "__main__":
