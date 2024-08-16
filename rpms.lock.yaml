@@ -3,6 +3,10 @@ lockfileVendor: redhat
 arches:
   - arch: x86_64
     packages:
+      - repoid: rpmfusion-free
+        url: https://download1.rpmfusion.org/free/fedora/releases/39/Everything/x86_64/os/Packages/l/libftl-0.9.14-12.fc39.x86_64.rpm
+        size: "41296"
+        checksum: sha256:6b0d8d3329150151fb8ea1eba7a4b464f112326777bee7a2e202753adc767281
       - repoid: releases
         url: http://fedora.c3sl.ufpr.br/linux/releases/39/Everything/x86_64/os/Packages/v/vim-data-9.0.1927-1.fc39.noarch.rpm
         size: "23894"
