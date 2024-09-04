@@ -10,6 +10,11 @@ PATH
   specs:
     tmp (0.1.2)
 
+PATH
+  remote: quux
+  specs:
+    quux (0.0.1)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -184,8 +189,9 @@ DEPENDENCIES
   json-schema!
   mygem!
   nokogiri (~> 1.16)
+  quux!
   rails (= 6.1.7)
   tmp!
 
 BUNDLED WITH
-   2.5.16
+   2.5.11
