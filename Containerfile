@@ -1,6 +1,6 @@
-FROM registry.fedoraproject.org/fedora:39
+FROM registry.access.redhat.com/ubi8:latest
 
-RUN dnf -y install vim
+RUN dnf -y install httpd-tools
 
-CMD ["vim", "--help"]
+CMD ["ab", "-V"]
 
