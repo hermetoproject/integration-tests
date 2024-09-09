@@ -1,5 +1,4 @@
-# cachi2-yarn
+# Well-formed Yarn 1.x Project with All Dependency Types
 
-Repository for testing cachi2 Yarn 1.x support.
-
-The various branches are individual test cases containing both valid and invalid input. The `main` branch should remain clean.
+This branch contains a Yarn 1.x project that tries to include as many dependency types as possible in yarn.lock.
+It will be used to integration test Cachi2's Yarn 1.x functionality in an end-to-end manner.
