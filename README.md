@@ -1,4 +1,4 @@
-# Well-formed Yarn 1.x Project with All Dependency Types
+# Yarn 1.x Invalid Checksum Integration Test
 
-This branch contains a Yarn 1.x project that tries to include as many dependency types as possible in yarn.lock.
-It will be used to integration test Cachi2's Yarn 1.x functionality in an end-to-end manner.
+In this project, the `@colors/colors` dependency checksum has been updated to an incorrect
+value in yarn.lock.
