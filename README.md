@@ -1,5 +1,7 @@
-# cachi2-yarn
+# Corepack installs Yarn 1.x Integration Test
 
-Repository for testing cachi2 Yarn 1.x support.
+This repository provides an extremely simple Yarn 1.x project which can
+be used to test whether lifecycle scripts are executed by yarn commands.
 
-The various branches are individual test cases containing both valid and invalid input. The `main` branch should remain clean.
+All lifecycle scripts should exit in error and so if any script is executed, the
+`yarn install` command should fail.
