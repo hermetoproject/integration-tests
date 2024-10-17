@@ -9,6 +9,7 @@
     "fecha": "https://github.com/taylorhakes/fecha.git",
     "is-positive": "^3.1.0",
     "mkdirp": "https://github.com/sindresorhus/camelcase/archive/2f1e273fc50281098d99627fef0853aa431139b5.tar.gz",
+    "react": "npm:react@18.3.1",
     "rightpad": "npm:leftpad",
     "uuid": "./external-packages/uuid-10.0.0.tgz"
   },
