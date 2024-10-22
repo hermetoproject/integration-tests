@@ -7,6 +7,7 @@
     "@colors/colors": "^1.6.0",
     "boxen": "file:external-packages/boxen-5.1.2.tgz",
     "fecha": "https://github.com/taylorhakes/fecha.git",
+    "is-number": "link:external-packages/is-number",
     "is-positive": "^3.1.0",
     "mkdirp": "https://github.com/sindresorhus/camelcase/archive/2f1e273fc50281098d99627fef0853aa431139b5.tar.gz",
     "rightpad": "npm:leftpad",
