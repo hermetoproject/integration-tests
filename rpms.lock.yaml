@@ -4,17 +4,17 @@ arches:
   - arch: x86_64
     packages:
       - repoid: releases
-        url: http://fedora.c3sl.ufpr.br/linux/releases/40/Everything/x86_64/os/Packages/g/gpm-libs-1.20.7-46.fc40.x86_64.rpm
+        url: https://dl.fedoraproject.org/pub/fedora/linux/releases/40/Everything/x86_64/os/Packages/g/gpm-libs-1.20.7-46.fc40.x86_64.rpm
         size: 20509
       - repoid: releases
-        url: http://fedora.c3sl.ufpr.br/linux/releases/40/Everything/x86_64/os/Packages/l/libsodium-1.0.19-4.fc40.x86_64.rpm
+        url: https://dl.fedoraproject.org/pub/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/libsodium-1.0.19-4.fc40.x86_64.rpm
         size: 178718
         checksum: sha256:91d67f2a3be65b2904c432f4585189540978dcfb6ef994c2eaac5b7cfb4010a5
     source:
       - repoid: releases
-        url: http://fedora.c3sl.ufpr.br/linux/releases/40/Everything/source/tree/Packages/g/gpm-1.20.7-46.fc40.src.rpm
+        url: https://dl.fedoraproject.org/pub/fedora/linux/releases/40/Everything/source/tree/Packages/g/gpm-1.20.7-46.fc40.src.rpm
         size: 251673
       - repoid: releases
-        url: http://fedora.c3sl.ufpr.br/linux/releases/40/Everything/source/tree/Packages/l/libsodium-1.0.19-4.fc40.src.rpm
+        url: https://dl.fedoraproject.org/pub/fedora/linux/releases/40/Everything/source/tree/Packages/l/libsodium-1.0.19-4.fc40.src.rpm
         size: 1979932
         checksum: sha256:9158cc55b14fe31e53d127521c29e25abe6a7e13d56e9d8630f89a1082cfc3c2
