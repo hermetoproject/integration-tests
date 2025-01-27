@@ -1,8 +1,7 @@
-# Cachi2 integration tests repository
+# Cargo test branch
 
-This repository hosts the integration tests for the Cachi2 project. Each branch
-represents a different test case. Please ignore README.md files in those branches
-at the moment. They might not be up to date.
+This branch contains basic Cargo tests. A Cargo project was created with
 
-The branch names begin with a prefix indicating a package manager, followed by the
-test case name in the format: `<package-manager>/<test-case>`.
+```shell
+$ cargo init --bin
+```
