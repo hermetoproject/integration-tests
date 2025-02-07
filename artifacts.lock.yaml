@@ -1,8 +1,8 @@
 metadata:
     version: "1.0"
 artifacts:
-    - download_url: https://github.com/cachito-testing/cachi2-generic/archive/refs/tags/v1.0.0.zip
-      checksum: "sha256:4fbcaa2a8d17c1f8042578627c122361ab18b7973311e7e9c598696732902f87"
-    - download_url: https://github.com/cachito-testing/cachi2-generic/archive/refs/tags/v2.0.0.zip
-      filename: archive.zip
-      checksum: "sha256:386428a82f37345fa24b74068e0e79f4c1f2ff38d4f5c106ea14de4a2926e584"
+    - download_url: https://github.com/hermetoproject/cachi2/archive/refs/tags/0.1.0.tar.gz
+      checksum: "sha256:2cdd9271f5bde6eeee56dda7f0fbb73b9a28b74bb0784d9e3170422b234ebd82"
+    - download_url: https://github.com/hermetoproject/cachi2/archive/refs/tags/0.2.0.tar.gz
+      filename: archive.tar.gz
+      checksum: "sha256:69aafdd7dcf13ceaa0621be9341bba4a70ea635ef1a2578abc0ce7847e7ddc70"
