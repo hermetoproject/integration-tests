@@ -1,0 +1,1 @@
+git+https://github.com/hermetoproject/private-testing.git@ada81f4dd9879340ada63f55091395aad6d9685e#egg=private_repo
