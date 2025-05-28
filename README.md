@@ -1,13 +1,13 @@
-# Hermeto integration tests repository
+# Misconfigured Rust-based Python dependency: lock mismatch
 
-This repository hosts the integration tests for our project. Each branch represents a different test
-case. Please ignore README.md files in those branches at the moment. They might not be up to date.
+Sometimes some Rust-based Python dependencies end up released with
+Cargo lock file not matching their own Cargo.toml. This is apparently
+a result of some misconfiguration of release toolchain and manifests
+itself in Cargo rejecting the package during vendoring. Hermeto
+provides a workaround for such packages where it would try and regenerate
+a lock file if mismatch were detected. 
 
-The branch names begin with a prefix indicating a package manager, followed by the
-test case name in the format: `<package-manager>/<test-case>`.
-
-To create a new test please create or request a new branch in GitHub UI first
-and then open a PR against this branch. Alternatively, you can push an empty
-branch first if you have push rights. Please avoid pushing non-empty branches
-since that would hinder the visibility of changes made to this repository in
-context of the main project repository.
+This test case provides a dummy package depending on [jiter v0.9.0](https://github.com/pydantic/jiter)
+which is known to contain Cargo.lock which does not match Cargo.toml.
+The dependencies should be successfully fetched in permissive mode
+and fail to be retrieved in strict mode.
