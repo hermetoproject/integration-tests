@@ -1,7 +1,6 @@
-# Cachi2 Rust
+# Cargo/Rust integration test
 
-This repository is meant to test a wide range of cases that can occur in Cachi2's processing of
-Rust.
+This repository is meant to test a wide range of cases that can occur in processing of Rust projects.
 
 ## Cases Covered
 
