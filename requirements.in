@@ -1,1 +1,2 @@
-cryptography==44.0.2
+cryptography @ https://github.com/pyca/cryptography/archive/refs/tags/44.0.2.zip \
+	--hash=sha256:94ce632f0cb9162cdc282c35b2c9f203e805106673a05a3d193332e4c2f9d905
