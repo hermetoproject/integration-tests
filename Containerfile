@@ -1,4 +1,4 @@
-FROM registry.fedoraproject.org/fedora:39
+FROM quay.io/centos/centos:stream9
 
 RUN dnf -y install vim
 
