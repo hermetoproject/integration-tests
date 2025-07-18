@@ -1,6 +1,7 @@
-# Cachi2 RPMs invalid checksum test
+# Invalid RPM checksum test
 
-This scenario validates that Cachi2 will refuse to proceed the prefetch of RPMs when a checksum mismatch is found. This test contains two RPMs and their respective source RPMs, and one RPM has an invalid checksum.
+This scenario validates that Hermeto will refuse to proceed the prefetch of RPMs when a checksum
+mismatch is found
 
 The test steps are as follow:
 - prefetch the dependencies with Cachi2
