@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9:9.6-1752625787
+FROM registry.fedoraproject.org/fedora:39
 
 RUN dnf -y install vim
 
