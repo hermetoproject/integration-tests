@@ -1,13 +1,18 @@
-# Hermeto integration tests repository
+# Test Cargo resolver v3 with unspecified rust-version
 
-This repository hosts the integration tests for our project. Each branch represents a different test
-case. Please ignore README.md files in those branches at the moment. They might not be up to date.
+A minimal Rust project for testing Cargo dependency resolution behavior.
 
-The branch names begin with a prefix indicating a package manager, followed by the
-test case name in the format: `<package-manager>/<test-case>`.
+## Configuration
 
-To create a new test please create or request a new branch in GitHub UI first
-and then open a PR against this branch. Alternatively, you can push an empty
-branch first if you have push rights. Please avoid pushing non-empty branches
-since that would hinder the visibility of changes made to this repository in
-context of the main project repository.
+- **Resolver**: Version 3 (Rust 2024 edition resolver)
+- **Rust Version**: Not specified (intentionally omitted)
+
+## Purpose
+
+This project tests the scenario where:
+- Cargo resolver v3 is used
+- No `rust-version` field is specified in Cargo.toml
+- Standard crates.io dependencies are present
+
+This configuration triggers MSRV-aware dependency resolution in Cargo, which requires checking the installed Rust version.
+
