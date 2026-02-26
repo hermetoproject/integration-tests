@@ -1,13 +1,4 @@
-# Hermeto integration tests repository
+# Missing Cargo.lock integration test
 
-This repository hosts the integration tests for our project. Each branch represents a different test
-case. Please ignore README.md files in those branches at the moment. They might not be up to date.
-
-The branch names begin with a prefix indicating a package manager, followed by the
-test case name in the format: `<package-manager>/<test-case>`.
-
-To create a new test please create or request a new branch in GitHub UI first
-and then open a PR against this branch. Alternatively, you can push an empty
-branch first if you have push rights. Please avoid pushing non-empty branches
-since that would hinder the visibility of changes made to this repository in
-context of the main project repository.
+This test case checks that Hermeto can handle a Rust project that does not have a Cargo.lock file in
+the permissive mode. Hermeto will generate a Cargo.lock file and proceed with a warning.
