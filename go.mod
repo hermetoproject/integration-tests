@@ -1,11 +1,11 @@
-module github.com/cachito-testing/gomod-pandemonium
+module github.com/hermetoproject/integration-tests
 
 go 1.22.0
 
 require (
 	github.com/Microsoft/go-winio v0.6.0
-	github.com/cachito-testing/gomod-pandemonium/terminaltor v1.0.0
-	github.com/cachito-testing/gomod-pandemonium/weird v0.0.0-20230417073518-0c6890c3280a
+	github.com/hermetoproject/integration-tests/terminaltor v1.0.0
+	github.com/hermetoproject/integration-tests/weird v0.0.0-20230417073518-0c6890c3280a
 	github.com/onsi/ginkgo/v2 v2.9.2
 	github.com/onsi/gomega v1.27.4
 	github.com/release-engineering/retrodep/v2 v2.1.0
@@ -30,4 +30,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/release-engineering/retrodep/v2 => github.com/cachito-testing/retrodep/v2 v2.1.1
+replace github.com/hermetoproject/integration-tests/terminaltor => ./terminaltor
+
+replace github.com/hermetoproject/integration-tests/weird => ./weird

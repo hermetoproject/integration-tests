@@ -1,3 +1,3 @@
-module github.com/cachito-testing/gomod-pandemonium/weird
+module github.com/hermetoproject/integration-tests/weird
 
 go 1.22.0

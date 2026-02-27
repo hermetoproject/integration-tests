@@ -2,7 +2,7 @@
 
 package where_was_i_built
 
-import "github.com/cachito-testing/gomod-pandemonium/weird"
+import "github.com/hermetoproject/integration-tests/weird"
 
 func useTheArbitraryDependency() {
 	weird.Weird()

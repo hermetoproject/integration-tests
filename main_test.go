@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/cachito-testing/gomod-pandemonium"
+	"github.com/hermetoproject/integration-tests"
 )
 
 func TestGomodPandemonium(t *testing.T) {
