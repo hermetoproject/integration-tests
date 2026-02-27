@@ -7,8 +7,8 @@ import (
 
 	"github.com/release-engineering/retrodep/v2/retrodep"
 
-	"github.com/cachito-testing/gomod-pandemonium/terminaltor"
-	where "github.com/cachito-testing/gomod-pandemonium/where-was-i-built"
+	"github.com/hermetoproject/integration-tests/terminaltor"
+	where "github.com/hermetoproject/integration-tests/where-was-i-built"
 )
 
 var _ = retrodep.ErrorNoGo

@@ -1,4 +1,4 @@
-module github.com/cachito-testing/gomod-pandemonium/terminaltor
+module github.com/hermetoproject/integration-tests/terminaltor
 
 go 1.22.0
 
