@@ -1,2 +1,2 @@
-# npm-cachi2-smoketest
+# npm-hermeto-smoketest
 Prepare acceptance testing for npm offline implementation
