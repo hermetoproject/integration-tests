@@ -28,7 +28,7 @@ _Cachi2 does not support the Git, GitHub and Exec protocols._
 "postinstall": "touch pwned-from-postinstall.txt"
 ```
 
-See this [commit](https://github.com/cachito-testing/cachi2-yarn-berry/commit/646ba0d70bd7e08527985d70b663aa595800396c).
+See this [commit](https://github.com/hermetoproject/integration-tests/commit/646ba0d70bd7e08527985d70b663aa595800396c).
 
 Arbitrary scripts are executed before and after `yarn install` command.
 
@@ -51,7 +51,7 @@ Starting with _@_.
 
 ### Optional dependencies
 
-See this [commit](https://github.com/cachito-testing/cachi2-yarn-berry/commit/4326fbbde1b1770e752138a9347e13fcfaabc9be).
+See this [commit](https://github.com/hermetoproject/integration-tests/commit/4326fbbde1b1770e752138a9347e13fcfaabc9be).
 
 ```bash
 "fsevents": "^2.3.2", # only for MacOS
@@ -59,9 +59,9 @@ See this [commit](https://github.com/cachito-testing/cachi2-yarn-berry/commit/43
 
 ### Compiled dependencies
 
-See this [commit](https://github.com/cachito-testing/cachi2-yarn-berry/commit/4066baa6ff91ce6d4491370479d8b8c23ed7dd37).
+See this [commit](https://github.com/hermetoproject/integration-tests/commit/4066baa6ff91ce6d4491370479d8b8c23ed7dd37).
 
-Let the container build to do the compilation, not cachi2.
+Let the container build to do the compilation, not Hermeto.
 
 ```bash
 "tree-sitter-json": "^0.20.0",
