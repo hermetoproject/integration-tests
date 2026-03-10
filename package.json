@@ -18,7 +18,7 @@
     "ansi-regex-link": "link:external-packages/ansi-regex",
     "c2-wo-deps": "https://bitbucket.org/cachi-testing/cachi2-without-deps.git",
     "c2-wo-deps-2": "https://bitbucket.org/cachi-testing/cachi2-without-deps-second/get/09992d418fc44a2895b7a9ff27c4e32d6f74a982.tar.gz",
-    "ccto-wo-deps": "git@github.com:cachito-testing/cachito-npm-without-deps.git",
+    "ccto-wo-deps": "git@github.com:hermetoproject/integration-tests.git",
     "date-in-spanish": "npm:fecha@latest",
     "holy-hand-grenade": "exec:./generate-holy-hand-grenade.js",
     "is-positive": "github:kevva/is-positive",
@@ -31,7 +31,7 @@
     "yargs": "^17.7.2"
   },
   "resolutions": {
-    "ccto-wo-deps": "patch:ccto-wo-deps@git@github.com%3Acachito-testing/cachito-npm-without-deps.git%23commit=2f0ce1d7b1f8b35572d919428b965285a69583f6#./.yarn/patches/ccto-wo-deps-git@github.com-e0fce8c89c.patch"
+    "ccto-wo-deps": "patch:ccto-wo-deps@git@github.com%3Ahermetoproject/integration-tests.git%23commit=b7dacdbf112ce0ea17a75c389e9e0f2f70f5be81#./.yarn/patches/ccto-wo-deps-git@github.com-e0fce8c89c.patch"
   },
   "workspaces": [
     "packages/*"
