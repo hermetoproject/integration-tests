@@ -42,7 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/yargs", "npm:17.0.24"],\
             ["ansi-regex-link", "link:external-packages/ansi-regex::locator=berryscary%40workspace%3A."],\
             ["c2-wo-deps-2", "https://bitbucket.org/cachi-testing/cachi2-without-deps-second/get/09992d418fc44a2895b7a9ff27c4e32d6f74a982.tar.gz"],\
-            ["ccto-wo-deps", "patch:ccto-wo-deps@https%3A//github.com/cachito-testing/cachito-npm-without-deps/archive/2f0ce1d7b1f8b35572d919428b965285a69583f6.tar.gz#./.yarn/patches/ccto-wo-deps-git@github.com-e0fce8c89c.patch::version=1.0.0&hash=51a91f&locator=berryscary%40workspace%3A."],\
+            ["ccto-wo-deps", "patch:ccto-wo-deps@https%3A//github.com/hermetoproject/integration-tests/archive/b7dacdbf112ce0ea17a75c389e9e0f2f70f5be81.tar.gz#./.yarn/patches/ccto-wo-deps-git@github.com-e0fce8c89c.patch::version=1.0.0&hash=51a91f&locator=berryscary%40workspace%3A."],\
             ["chalk", "npm:5.3.0"],\
             ["date-in-spanish", [\
               "fecha",\
@@ -286,7 +286,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/yargs", "npm:17.0.24"],\
             ["ansi-regex-link", "link:external-packages/ansi-regex::locator=berryscary%40workspace%3A."],\
             ["c2-wo-deps-2", "https://bitbucket.org/cachi-testing/cachi2-without-deps-second/get/09992d418fc44a2895b7a9ff27c4e32d6f74a982.tar.gz"],\
-            ["ccto-wo-deps", "patch:ccto-wo-deps@https%3A//github.com/cachito-testing/cachito-npm-without-deps/archive/2f0ce1d7b1f8b35572d919428b965285a69583f6.tar.gz#./.yarn/patches/ccto-wo-deps-git@github.com-e0fce8c89c.patch::version=1.0.0&hash=51a91f&locator=berryscary%40workspace%3A."],\
+            ["ccto-wo-deps", "patch:ccto-wo-deps@https%3A//github.com/hermetoproject/integration-tests/archive/b7dacdbf112ce0ea17a75c389e9e0f2f70f5be81.tar.gz#./.yarn/patches/ccto-wo-deps-git@github.com-e0fce8c89c.patch::version=1.0.0&hash=51a91f&locator=berryscary%40workspace%3A."],\
             ["chalk", "npm:5.3.0"],\
             ["date-in-spanish", [\
               "fecha",\
@@ -321,7 +321,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/yargs", "npm:17.0.24"],\
             ["ansi-regex-link", "link:external-packages/ansi-regex::locator=berryscary%40workspace%3A."],\
             ["c2-wo-deps-2", "https://bitbucket.org/cachi-testing/cachi2-without-deps-second/get/09992d418fc44a2895b7a9ff27c4e32d6f74a982.tar.gz"],\
-            ["ccto-wo-deps", "patch:ccto-wo-deps@https%3A//github.com/cachito-testing/cachito-npm-without-deps/archive/2f0ce1d7b1f8b35572d919428b965285a69583f6.tar.gz#./.yarn/patches/ccto-wo-deps-git@github.com-e0fce8c89c.patch::version=1.0.0&hash=51a91f&locator=berryscary%40workspace%3A."],\
+            ["ccto-wo-deps", "patch:ccto-wo-deps@https%3A//github.com/hermetoproject/integration-tests/archive/b7dacdbf112ce0ea17a75c389e9e0f2f70f5be81.tar.gz#./.yarn/patches/ccto-wo-deps-git@github.com-e0fce8c89c.patch::version=1.0.0&hash=51a91f&locator=berryscary%40workspace%3A."],\
             ["chalk", "npm:5.3.0"],\
             ["date-in-spanish", [\
               "fecha",\
@@ -394,10 +394,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["ccto-wo-deps", [\
-        ["patch:ccto-wo-deps@https%3A//github.com/cachito-testing/cachito-npm-without-deps/archive/2f0ce1d7b1f8b35572d919428b965285a69583f6.tar.gz#./.yarn/patches/ccto-wo-deps-git@github.com-e0fce8c89c.patch::version=1.0.0&hash=51a91f&locator=berryscary%40workspace%3A.", {\
-          "packageLocation": "./.yarn/cache/ccto-wo-deps-patch-6da400bc08-d7cce21227.zip/node_modules/ccto-wo-deps/",\
+        ["patch:ccto-wo-deps@https%3A//github.com/hermetoproject/integration-tests/archive/b7dacdbf112ce0ea17a75c389e9e0f2f70f5be81.tar.gz#./.yarn/patches/ccto-wo-deps-git@github.com-e0fce8c89c.patch::version=1.0.0&hash=51a91f&locator=berryscary%40workspace%3A.", {\
+          "packageLocation": "./.yarn/cache/ccto-wo-deps-patch-855821225b-0b368057b2.zip/node_modules/ccto-wo-deps/",\
           "packageDependencies": [\
-            ["ccto-wo-deps", "patch:ccto-wo-deps@https%3A//github.com/cachito-testing/cachito-npm-without-deps/archive/2f0ce1d7b1f8b35572d919428b965285a69583f6.tar.gz#./.yarn/patches/ccto-wo-deps-git@github.com-e0fce8c89c.patch::version=1.0.0&hash=51a91f&locator=berryscary%40workspace%3A."]\
+            ["ccto-wo-deps", "patch:ccto-wo-deps@https%3A//github.com/hermetoproject/integration-tests/archive/b7dacdbf112ce0ea17a75c389e9e0f2f70f5be81.tar.gz#./.yarn/patches/ccto-wo-deps-git@github.com-e0fce8c89c.patch::version=1.0.0&hash=51a91f&locator=berryscary%40workspace%3A."]\
           ],\
           "linkType": "HARD"\
         }]\

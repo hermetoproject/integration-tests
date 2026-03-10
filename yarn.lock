@@ -186,7 +186,7 @@ __metadata:
     "@types/yargs": ^17
     ansi-regex-link: "link:external-packages/ansi-regex"
     c2-wo-deps-2: "https://bitbucket.org/cachi-testing/cachi2-without-deps-second/get/09992d418fc44a2895b7a9ff27c4e32d6f74a982.tar.gz"
-    ccto-wo-deps: "https://github.com/cachito-testing/cachito-npm-without-deps/archive/2f0ce1d7b1f8b35572d919428b965285a69583f6.tar.gz"
+    ccto-wo-deps: "https://github.com/hermetoproject/integration-tests/archive/b7dacdbf112ce0ea17a75c389e9e0f2f70f5be81.tar.gz"
     chalk: ^5.3.0
     date-in-spanish: "npm:fecha@latest"
     emoji-regex: "https://github.com/mathiasbynens/emoji-regex/archive/refs/tags/v10.2.1.tar.gz"
@@ -262,17 +262,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ccto-wo-deps@https://github.com/cachito-testing/cachito-npm-without-deps/archive/2f0ce1d7b1f8b35572d919428b965285a69583f6.tar.gz":
+"ccto-wo-deps@https://github.com/hermetoproject/integration-tests/archive/b7dacdbf112ce0ea17a75c389e9e0f2f70f5be81.tar.gz":
   version: 1.0.0
-  resolution: "ccto-wo-deps@https://github.com/cachito-testing/cachito-npm-without-deps/archive/2f0ce1d7b1f8b35572d919428b965285a69583f6.tar.gz"
-  checksum: e9928fe2a3cdb1a2b0689766fc7826d011a1e8f3e730276d496332989a140e5155ae26533b3fc819b8ed83181a3442416e7d730ba5af737248d9a0871e5f8bb4
+  resolution: "ccto-wo-deps@https://github.com/hermetoproject/integration-tests/archive/b7dacdbf112ce0ea17a75c389e9e0f2f70f5be81.tar.gz"
+  checksum: da9ab3e8fcea43cf17fba24e5add8675bfa4002050b32853b8348588515d2bed19e4866d2071010048b170c129897eb1c4919239885c6a0eaf2bbf490ed840f8
   languageName: node
   linkType: hard
 
-"ccto-wo-deps@patch:ccto-wo-deps@https://github.com/cachito-testing/cachito-npm-without-deps/archive/2f0ce1d7b1f8b35572d919428b965285a69583f6.tar.gz#./.yarn/patches/ccto-wo-deps-git@github.com-e0fce8c89c.patch::locator=berryscary%40workspace%3A.":
+"ccto-wo-deps@patch:ccto-wo-deps@https://github.com/hermetoproject/integration-tests/archive/b7dacdbf112ce0ea17a75c389e9e0f2f70f5be81.tar.gz#./.yarn/patches/ccto-wo-deps-git@github.com-e0fce8c89c.patch::locator=berryscary%40workspace%3A.":
   version: 1.0.0
-  resolution: "ccto-wo-deps@patch:ccto-wo-deps@https%3A//github.com/cachito-testing/cachito-npm-without-deps/archive/2f0ce1d7b1f8b35572d919428b965285a69583f6.tar.gz#./.yarn/patches/ccto-wo-deps-git@github.com-e0fce8c89c.patch::version=1.0.0&hash=51a91f&locator=berryscary%40workspace%3A."
-  checksum: d7cce21227efcfffe13ec4d8aa07294144dd7b61049f43557dd6d1481d6a94a636768ccb4b2ff2b3d8082aaea73a7fcf279bc02549d8bbdc5a4a84a274b177d3
+  resolution: "ccto-wo-deps@patch:ccto-wo-deps@https%3A//github.com/hermetoproject/integration-tests/archive/b7dacdbf112ce0ea17a75c389e9e0f2f70f5be81.tar.gz#./.yarn/patches/ccto-wo-deps-git@github.com-e0fce8c89c.patch::version=1.0.0&hash=51a91f&locator=berryscary%40workspace%3A."
+  checksum: 0b368057b2a14b3dee06b46bb461df65b143709e9fda4c5dd792357b0dbebbc6ae756b33c0ac89d20dea13ada05eed54c6668a277680f4ecfe588be658174658
   languageName: node
   linkType: hard
 
