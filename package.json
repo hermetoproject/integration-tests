@@ -17,7 +17,7 @@
   "dependencies": {
     "ansi-regex-link": "link:external-packages/ansi-regex",
     "c2-wo-deps-2": "https://bitbucket.org/cachi-testing/cachi2-without-deps-second/get/09992d418fc44a2895b7a9ff27c4e32d6f74a982.tar.gz",
-    "ccto-wo-deps": "https://github.com/cachito-testing/cachito-npm-without-deps/archive/2f0ce1d7b1f8b35572d919428b965285a69583f6.tar.gz",
+    "ccto-wo-deps": "https://github.com/hermetoproject/integration-tests/archive/b7dacdbf112ce0ea17a75c389e9e0f2f70f5be81.tar.gz",
     "date-in-spanish": "npm:fecha@latest",
     "holy-hand-grenade": "link:book-of-armaments",
     "is-positive": "https://github.com/kevva/is-positive/archive/refs/tags/3.1.0.tar.gz",
@@ -30,7 +30,7 @@
     "yargs": "^17.7.2"
   },
   "resolutions": {
-    "ccto-wo-deps": "patch:ccto-wo-deps@https://github.com/cachito-testing/cachito-npm-without-deps/archive/2f0ce1d7b1f8b35572d919428b965285a69583f6.tar.gz#./.yarn/patches/ccto-wo-deps-git@github.com-e0fce8c89c.patch"
+    "ccto-wo-deps": "patch:ccto-wo-deps@https://github.com/hermetoproject/integration-tests/archive/b7dacdbf112ce0ea17a75c389e9e0f2f70f5be81.tar.gz#./.yarn/patches/ccto-wo-deps-git@github.com-e0fce8c89c.patch"
   },
   "workspaces": [
     "packages/*"
