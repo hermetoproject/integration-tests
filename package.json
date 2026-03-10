@@ -1,5 +1,5 @@
 {
-  "name": "cachito-npm-with-multiple-dep-versions",
+  "name": "npm-with-multiple-dep-versions",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,7 @@
     "is-positive": "github:kevva/is-positive#1187a61f2e18cf7c11c23d61a1bd52b9fa6a5fdf"
   },
   "devDependencies": {
-    "cachito-npm-without-deps": "git+https://github.com/cachito-testing/cachito-npm-without-deps.git"
+    "npm-without-deps": "git+https://github.com/hermetoproject/integration-tests.git#npm/without-deps"
   },
   "workspaces": [
     "foo"
