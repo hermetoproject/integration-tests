@@ -1,0 +1,5 @@
+maturin==1.7.4
+wheel>=0.36.2
+setuptools>=40.8.0
+flit_core>=3.2
+setuptools-rust>=1.4.0
