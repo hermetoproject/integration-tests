@@ -1,4 +1,4 @@
-module github.com/cachito-testing/gomod-multiple-modules/eggs-module
+module github.com/hermetoproject/integration-tests/eggs-module
 
 go 1.18
 
