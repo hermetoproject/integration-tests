@@ -1,3 +1,3 @@
-module github.com/cachito-testing/gomod-multiple-modules
+module github.com/hermetoproject/integration-tests
 
 go 1.18

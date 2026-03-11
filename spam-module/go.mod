@@ -1,4 +1,4 @@
-module github.com/cachito-testing/gomod-multiple-modules/spam-module
+module github.com/hermetoproject/integration-tests/spam-module
 
 go 1.18
 
