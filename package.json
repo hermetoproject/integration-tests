@@ -1,5 +1,5 @@
 {
-  "name": "npm-cachi2-yarn-registry-test",
+  "name": "npm-yarn-registry-test",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,15 +7,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cachito-testing/cachito-npm-workspaces.git"
+    "url": "git+https://github.com/hermetoproject/integration-tests.git#npm/yarn-registry-lockfile3"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cachito-testing/cachito-npm-workspaces/issues"
+    "url": "https://github.com/hermetoproject/integration-tests/issues"
   },
-  "homepage": "https://github.com/cachito-testing/cachito-npm-workspaces#readme",
+  "homepage": "https://github.com/hermetoproject/integration-tests/tree/npm/yarn-registry-lockfile3#readme",
   "description": "",
   "private": true,
   "dependencies": {
