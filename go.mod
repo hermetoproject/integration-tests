@@ -1,3 +1,3 @@
-module github.com/cachito-testing/go-generate-imported
+module github.com/hermetoproject/integration-tests
 
 go 1.17
