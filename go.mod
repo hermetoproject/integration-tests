@@ -1,3 +1,3 @@
-module github.com/cachito-testing/cachito-gomod-without-deps
+module github.com/hermetoproject/integration-tests
 
 go 1.14
