@@ -1,7 +1,7 @@
-module github.com/cachito-testing/cachito-gomod-local-deps
+module github.com/hermetoproject/integration-tests
 
 go 1.15
 
-require github.com/cachito-testing/some-module v0.0.0
+require github.com/hermetoproject/some-module v0.0.0
 
-replace github.com/cachito-testing/some-module => ./staging/src/some-module
+replace github.com/hermetoproject/some-module => ./staging/src/some-module

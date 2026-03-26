@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/cachito-testing/some-module"
-	"github.com/cachito-testing/some-module/some-package"
+	"github.com/hermetoproject/some-module"
+	"github.com/hermetoproject/some-module/some-package"
 )
 
 

@@ -1,3 +1,3 @@
-module github.com/cachito-testing/some-module
+module github.com/hermetoproject/some-module
 
 go 1.15
