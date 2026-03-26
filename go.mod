@@ -1,4 +1,4 @@
-module github.com/cachito-testing/gomod-vendor-check-fail
+module github.com/hermetoproject/integration-tests
 
 go 1.14
 
