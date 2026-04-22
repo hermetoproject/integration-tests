@@ -11,27 +11,27 @@ arches:
         name: gpm-libs
         evr: 1.20.7-29.el9
         sourcerpm: gpm-1.20.7-29.el9.src.rpm
-      - url: https://mirror.stream.centos.org/9-stream/AppStream/x86_64/os/Packages/vim-common-8.2.2637-22.el9.x86_64.rpm
+      - url: https://mirror.stream.centos.org/9-stream/AppStream/x86_64/os/Packages/vim-common-8.2.2637-28.el9.x86_64.rpm
         repoid: appstream
-        size: 7341481
-        checksum: sha256:fe58dadda94c42e502c1064387102134464948d2e1cd4bb4f93731cfa91d2b8e
+        size: 7343604
+        checksum: sha256:225b9336591f2adb2616ee87b3296dd7d3244a5d01d857219e474691e127825e
         name: vim-common
-        evr: 2:8.2.2637-22.el9
-        sourcerpm: vim-8.2.2637-22.el9.src.rpm
-      - url: https://mirror.stream.centos.org/9-stream/AppStream/x86_64/os/Packages/vim-enhanced-8.2.2637-22.el9.x86_64.rpm
+        evr: 2:8.2.2637-28.el9
+        sourcerpm: vim-8.2.2637-28.el9.src.rpm
+      - url: https://mirror.stream.centos.org/9-stream/AppStream/x86_64/os/Packages/vim-enhanced-8.2.2637-28.el9.x86_64.rpm
         repoid: appstream
-        size: 1831371
-        checksum: sha256:ada993fa54366659f4118677cdb76eb30093ac71d86fe94c56ef87305be9bddc
+        size: 1831116
+        checksum: sha256:b843e15aeb437ab3a12c97d07f47490617220b0c2534cef76450e43aa2a5322a
         name: vim-enhanced
-        evr: 2:8.2.2637-22.el9
-        sourcerpm: vim-8.2.2637-22.el9.src.rpm
-      - url: https://mirror.stream.centos.org/9-stream/BaseOS/x86_64/os/Packages/vim-filesystem-8.2.2637-22.el9.noarch.rpm
+        evr: 2:8.2.2637-28.el9
+        sourcerpm: vim-8.2.2637-28.el9.src.rpm
+      - url: https://mirror.stream.centos.org/9-stream/BaseOS/x86_64/os/Packages/vim-filesystem-8.2.2637-28.el9.noarch.rpm
         repoid: baseos
-        size: 13640
-        checksum: sha256:b767597168aad6a36fe82578422eba27bfca5ffb01c501a9df9e532e68c853ff
+        size: 13890
+        checksum: sha256:041476da470f7cf2abdefecb441573f6a71649b86f747c5e6a33a9b6810064a3
         name: vim-filesystem
-        evr: 2:8.2.2637-22.el9
-        sourcerpm: vim-8.2.2637-22.el9.src.rpm
+        evr: 2:8.2.2637-28.el9
+        sourcerpm: vim-8.2.2637-28.el9.src.rpm
       - url: https://mirror.stream.centos.org/9-stream/BaseOS/x86_64/os/Packages/which-2.21-30.el9.x86_64.rpm
         repoid: baseos
         size: 41976
