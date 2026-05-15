@@ -31,7 +31,6 @@
     "sax": "0.1.1",
     "is-positive": "github:kevva/is-positive",
     "npm-without-deps": "https://github.com/hermetoproject/integration-tests/archive/b7dacdbf112ce0ea17a75c389e9e0f2f70f5be81.tar.gz",
-    "bitbucket-cachi2-npm-without-deps-second": "git+https://bitbucket.org/cachi-testing/cachi2-without-deps-second.git",
     "fecha": "file:fecha-4.2.3.tgz"
   }
 }
