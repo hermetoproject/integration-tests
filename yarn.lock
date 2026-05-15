@@ -185,7 +185,6 @@ __metadata:
     "@types/node": ^20.4.5
     "@types/yargs": ^17
     ansi-regex-link: "link:external-packages/ansi-regex"
-    c2-wo-deps-2: "https://bitbucket.org/cachi-testing/cachi2-without-deps-second/get/09992d418fc44a2895b7a9ff27c4e32d6f74a982.tar.gz"
     ccto-wo-deps: "https://github.com/hermetoproject/integration-tests/archive/b7dacdbf112ce0ea17a75c389e9e0f2f70f5be81.tar.gz"
     chalk: ^5.3.0
     date-in-spanish: "npm:fecha@latest"
@@ -232,13 +231,6 @@ __metadata:
   dependencies:
     balanced-match: ^1.0.0
   checksum: a61e7cd2e8a8505e9f0036b3b6108ba5e926b4b55089eeb5550cd04a471fe216c96d4fe7e4c7f995c728c554ae20ddfc4244cad10aef255e72b62930afd233d1
-  languageName: node
-  linkType: hard
-
-"c2-wo-deps-2@https://bitbucket.org/cachi-testing/cachi2-without-deps-second/get/09992d418fc44a2895b7a9ff27c4e32d6f74a982.tar.gz":
-  version: 2.0.0
-  resolution: "c2-wo-deps-2@https://bitbucket.org/cachi-testing/cachi2-without-deps-second/get/09992d418fc44a2895b7a9ff27c4e32d6f74a982.tar.gz"
-  checksum: b194fd1f4a79472a332fec936818d1713a222157e845a8d466a239fdc950130a7ad9b77c212d69d2947c07bce0c911446496ff47dec5a73b4368f0a9c9432b1d
   languageName: node
   linkType: hard
 
@@ -1334,7 +1326,7 @@ __metadata:
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: f53bfe97f7c8b2b6d23cf572750d4e7d1e0c5fff1c36d859d0ec84556a827b8785077bc27676bf7e71fae538e517c3ecc0f37e7f593be913d884805d931bc8be
+  checksum: 4e64d212c1b70ed178b0894c23b4c78a5bf2491d08707098b61f24e54331c47c3c166de210551e7edf26fc0bbdfd5b1548d3d15ed3f738880e4f01c6b6a8b63a
   languageName: node
   linkType: hard
 
