@@ -13,7 +13,6 @@
   },
   "dependencies": {
     "ansi-regex-link": "link:external-packages/ansi-regex",
-    "c2-wo-deps-2": "https://bitbucket.org/cachi-testing/cachi2-without-deps-second/get/09992d418fc44a2895b7a9ff27c4e32d6f74a982.tar.gz",
     "ccto-wo-deps": "https://github.com/hermetoproject/integration-tests/archive/b7dacdbf112ce0ea17a75c389e9e0f2f70f5be81.tar.gz",
     "date-in-spanish": "npm:fecha@latest",
     "holy-hand-grenade": "link:book-of-armaments",
