@@ -17,7 +17,6 @@
   "homepage": "https://github.com/hermetoproject/integration-tests#readme",
   "description": "",
   "dependencies": {
-    "bitbucket-cachi2-npm-without-deps-second": "https://bitbucket.org/cachi-testing/cachi2-without-deps-second.git",
     "debug": "",
     "express": "^4.18.2",
     "sax": "0.1.1"
