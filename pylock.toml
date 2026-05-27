@@ -1,0 +1,15 @@
+lock-version = "1.0"
+
+[[packages]]
+name = "smmap"
+version = "5.0.2"
+
+[packages.sdist]
+url = "https://files.pythonhosted.org/packages/44/cd/a040c4b3119bbe532e5b0732286f805e4b20b078d2d6a4b354c5b6b98606/smmap-5.0.2.tar.gz"
+
+[[packages]]
+name = "gitdb"
+version = "4.0.12"
+
+[packages.sdist]
+url = "https://files.pythonhosted.org/packages/72/94/63b0fc47eb32792c76ee1b2f03158d3c5efc73d8e2e4a243d0fa59e6862a/gitdb-4.0.12.tar.gz"
