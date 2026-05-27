@@ -1,0 +1,7 @@
+lock-version = "1.0"
+
+[[packages]]
+name = "localpackage"
+
+[packages.directory]
+path = "./local-pkg"
