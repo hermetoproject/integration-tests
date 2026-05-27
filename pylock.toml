@@ -1,0 +1,8 @@
+lock-version = "1.0"
+
+[[packages]]
+name = "localpackage"
+version = "1.0.0"
+
+[packages.archive]
+path = "/tmp/packages.tar.gz"
