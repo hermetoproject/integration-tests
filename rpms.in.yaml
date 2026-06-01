@@ -1,0 +1,15 @@
+contentOrigin:
+  repos:
+    - repoid: ubi-10-baseos-rpms
+      baseurl: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/$basearch/baseos/os
+    - repoid: ubi-10-appstream-rpms
+      baseurl: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/$basearch/appstream/os
+
+packages:
+  - cargo
+  - python3
+  - python3-pip
+  - python3-setuptools
+  - python3-devel
+  - libffi-devel
+  - openssl-devel
