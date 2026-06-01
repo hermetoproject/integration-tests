@@ -13,3 +13,12 @@ packages:
   - python3-devel
   - libffi-devel
   - openssl-devel
+  # rfc3161-client extra build dependencies
+  - perl-interpreter
+  - perl-FindBin
+  - perl-lib
+  - perl-IPC-Cmd
+  - perl-File-Compare
+  - perl-File-Copy
+
+installWeakDeps: false
