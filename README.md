@@ -1,6 +1,6 @@
-# pnpm v10 scenario
+# pnpm v11 scenario
 
-A comprehensive test scenario for pnpm v10 that demonstrates all available package sources in the
+A comprehensive test scenario for pnpm v11 that demonstrates all available package sources in the
 pnpm ecosystem.
 
 ## Prerequisites
@@ -14,7 +14,7 @@ install it via corepack. It is possible to have multiple pnpm versions installed
 pnpm install
 ```
 
-This project is designed to validate that pnpm v10 correctly handles:
+This project is designed to validate that pnpm v11 correctly handles:
 
 - [x] Standard npm registry packages with semantic versioning
 - [x] JSR packages with the `jsr:` protocol
@@ -27,9 +27,10 @@ This project is designed to validate that pnpm v10 correctly handles:
 
 ## Useful resources
 
-- <https://pnpm.io/10.x/installation>
-- <https://pnpm.io/10.x/package-sources>
-- <https://pnpm.io/10.x/settings>
-- <https://pnpm.io/10.x/workspaces>
-- <https://pnpm.io/10.x/cli/patch>
-- <https://pnpm.io/10.x/cli/patch-commit>
+- <https://pnpm.io/11.x/migration>
+- <https://pnpm.io/11.x/installation>
+- <https://pnpm.io/11.x/package-sources>
+- <https://pnpm.io/11.x/settings>
+- <https://pnpm.io/11.x/workspaces>
+- <https://pnpm.io/11.x/cli/patch>
+- <https://pnpm.io/11.x/cli/patch-commit>
