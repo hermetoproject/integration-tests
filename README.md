@@ -1,5 +1,12 @@
 # Hermeto integration tests repository
 
+## ⚠️ **THIS REPOSITORY IS OBSOLETE** ⚠️
+
+**All test scenarios have been moved to the main repository:
+https://github.com/hermetoproject/hermeto**
+
+**Please do not open new PRs or branches here.**
+
 This repository hosts the integration tests for our project. Each branch represents a different test
 case. Please ignore README.md files in those branches at the moment. They might not be up to date.
 
